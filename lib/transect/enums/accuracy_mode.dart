@@ -1,0 +1,1 @@
+enum AccuracyMode { openTrail, forest }

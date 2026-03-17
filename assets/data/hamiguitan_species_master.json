@@ -1,0 +1,7400 @@
+[
+  {
+    "scientificName": "Oriolus chinensis Linnaeus, 1766",
+    "family": "Oriolidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Mitra abbatis Perry, 1811",
+    "family": "Mitridae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Aplonis panayensis (Scopoli, 1786)",
+    "family": "Sturnidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Hypothymis azurea (Boddaert, 1783)",
+    "family": "Monarchidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Nepenthes micramphora V.B.Heinrich, S.Mc Pherson, Gronem. & V.B.Amoroso",
+    "family": "Nepenthaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Streptopelia tranquebarica (Hermann, 1804)",
+    "family": "Columbidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Phapitreron leucotis (Temminck, 1823)",
+    "family": "Columbidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Nepenthes peltata Sh.Kurata",
+    "family": "Nepenthaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Annepona mariae (F.A.Schilder, 1927)",
+    "family": "Cypraeidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Egretta garzetta (Linnaeus, 1766)",
+    "family": "Ardeidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Clanculus stigmatarius A.Adams, 1853",
+    "family": "Trochidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Lophozosterops goodfellowi (Hartert, 1903)",
+    "family": "Zosteropidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Rhinomyias ruficauda (Sharpe, 1877)",
+    "family": "Muscicapidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Nepenthes × hamiguitanensis Gronem., Wistuba, V.B.Heinrich, S.Mc Pherson, Mey & V.B.Amoroso",
+    "family": "Nepenthaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Zosterops everetti Tweeddale, 1878",
+    "family": "Zosteropidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Parashorea malaanonan (Blanco) Merr.",
+    "family": "Dipterocarpaceae",
+    "group": "Flora",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Tricondyla aptera aptera (Olivier, 1790)",
+    "family": "Carabidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Cinnyris jugularis (Linnaeus, 1766)",
+    "family": "Nectariniidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Otus gurneyi (Tweeddale, 1879)",
+    "family": "Strigidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Hypericum L.",
+    "family": "Hypericaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Myrsine L.",
+    "family": "Primulaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Zizina otis (Fabricius, 1787)",
+    "family": "Lycaenidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Oberonia Lindl.",
+    "family": "Orchidaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Micromelum Blume",
+    "family": "Rutaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Sicyopterus micrurus (Bleeker, 1853)",
+    "family": "Gobiidae",
+    "group": "Fauna",
+    "iucnStatus": "DD"
+  },
+  {
+    "scientificName": "Ophiorrhiza L.",
+    "family": "Rubiaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Morella Lour.",
+    "family": "Myricaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Eleotris oxycephala Temminck & Schlegel, 1845",
+    "family": "Eleotridae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Trema Lour.",
+    "family": "Cannabaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Pareronia boebera (Eschscholtz, 1821)",
+    "family": "Pieridae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Helicia paucinervia Merr.",
+    "family": "Proteaceae",
+    "group": "Flora",
+    "iucnStatus": "VU"
+  },
+  {
+    "scientificName": "Bulbophyllum Thouars",
+    "family": "Orchidaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Megophrys stejnegeri Taylor, 1920",
+    "family": "Megophryidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Taractrocera Butler",
+    "family": "Hesperiidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Gobiopterus mindanensis (Herre, 1944)",
+    "family": "Gobiidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Orthotomus nigriceps Tweeddale, 1878",
+    "family": "Cisticolidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Sphenomorphus diwata Brown & Rabor, 1967",
+    "family": "Scincidae",
+    "group": "Fauna",
+    "iucnStatus": "DD"
+  },
+  {
+    "scientificName": "Mycalesis tagala Felder, 1863",
+    "family": "Nymphalidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Pycnonotus urostictus (Salvadori, 1870)",
+    "family": "Pycnonotidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Awaous grammepomus (Bleeker, 1849)",
+    "family": "Gobiidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Sicyopterus longifilis de Beaufort, 1912",
+    "family": "Gobiidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Cacatua haematuropygia (Statius Muller, 1776)",
+    "family": "Psittacidae",
+    "group": "Fauna",
+    "iucnStatus": "CR"
+  },
+  {
+    "scientificName": "Brachymeles gracilis (Fischer, 1885)",
+    "family": "Scincidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Idea leuconoe Erichson, 1834",
+    "family": "Nymphalidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Glochidion J.R.Forst. & G.Forst.",
+    "family": "Phyllanthaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Vavaea amicorum Benth.",
+    "family": "Meliaceae",
+    "group": "Flora",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Gangara thyrsis (Fabricius, 1775)",
+    "family": "Hesperiidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Tropidolaemus subannulatus (Gray, 1842)",
+    "family": "Viperidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Dicaeum australe (Hermann, 1783)",
+    "family": "Dicaeidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Platymantis rabori Brown, Alcala, Diesmos & Alcala, 1997",
+    "family": "Ceratobatrachidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Selliguea taeniata (Sw.) Parris",
+    "family": "Polypodiaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Calophyllum L.",
+    "family": "Calophyllaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Callogobius maculipinnis (Fowler, 1918)",
+    "family": "Gobiidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Pinoyscincus coxi (Taylor, 1915)",
+    "family": "Scincidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Opadometa Archer, 1951",
+    "family": "Tetragnathidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Polyosma Blume",
+    "family": "Escalloniaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Centropus viridis (Scopoli, 1786)",
+    "family": "Cuculidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Eurema brigitta (Stoll, 1780)",
+    "family": "Pieridae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Costera J.J.Sm.",
+    "family": "Ericaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Lepisorus longifolius (Blume) Holttum",
+    "family": "Polypodiaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Aethopyga linaraborae Kennedy, Gonzales & Miranda, 1997",
+    "family": "Nectariniidae",
+    "group": "Fauna",
+    "iucnStatus": "NT"
+  },
+  {
+    "scientificName": "Eriovixia Archer, 1951",
+    "family": "Araneidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Rhipidura nigrocinnamomea Hartert, 1903",
+    "family": "Rhipiduridae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Misumenops F.O.P.-Cambridge, 1900",
+    "family": "Thomisidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Exilisciurus concinnus (Thomas, 1888)",
+    "family": "Sciuridae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Sterculia L.",
+    "family": "Malvaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Calliophis intestinalis (Laurenti, 1768)",
+    "family": "Elapidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Buceros hydrocorax Linnaeus, 1766",
+    "family": "Bucerotidae",
+    "group": "Fauna",
+    "iucnStatus": "VU"
+  },
+  {
+    "scientificName": "Curetis tagalica (Felder, 1862)",
+    "family": "Lycaenidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Beccarianthus Cogn.",
+    "family": "Melastomataceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Symplocos pendula Wight",
+    "family": "Symplocaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Freycinetia Gaudich.",
+    "family": "Pandanaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Barbodes bantolanensis (Day, 1914)",
+    "family": "Cyprinidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Sarcops calvus (Linnaeus, 1766)",
+    "family": "Sturnidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Aeromachus musca (Mabille, 1876)",
+    "family": "Hesperiidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Pulchrana grandocula (Taylor, 1920)",
+    "family": "Ranidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Macaranga Thouars",
+    "family": "Euphorbiaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Terpsiphone cinnamomea (Sharpe, 1877)",
+    "family": "Monarchidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Ramphotyphlops cumingii (Gray, 1845)",
+    "family": "Typhlopidae",
+    "group": "Fauna",
+    "iucnStatus": "DD"
+  },
+  {
+    "scientificName": "Hyporhamphus affinis (Günther, 1866)",
+    "family": "Hemiramphidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Ardisia Sw.",
+    "family": "Primulaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Myrtaceae",
+    "family": "Myrtaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Grammitis Sw.",
+    "family": "Polypodiaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Nepenthes mindanaoensis Sh.Kurata",
+    "family": "Nepenthaceae",
+    "group": "Flora",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Asplenium auriculatum Sw.",
+    "family": "Aspleniaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Gonystylus Teijsm. & Binn.",
+    "family": "Thymelaeaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Psolos fuligo (Mabille, 1876)",
+    "family": "Hesperiidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Parvoscincus beyeri (Taylor, 1922)",
+    "family": "Scincidae",
+    "group": "Fauna",
+    "iucnStatus": "VU"
+  },
+  {
+    "scientificName": "Pentaphragma Wall. ex G.Don",
+    "family": "Pentaphragmataceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Acentrogobius janthinopterus (Bleeker, 1853)",
+    "family": "Gobiidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Danaus melanippus (Cramer)",
+    "family": "Nymphalidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Orthiopteris campylura (Kunze) Copel.",
+    "family": "Saccolomataceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Megaderma spasma (Linnaeus, 1758)",
+    "family": "Megadermatidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Tirumala ishmoides Moore, 1883",
+    "family": "Nymphalidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Rhabdophis lineatus (Peters, 1861)",
+    "family": "Colubridae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Cephalomanes C.Presl",
+    "family": "Hymenophyllaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Ypthima stellera Eschscholtz, 1821",
+    "family": "Nymphalidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Rubiaceae",
+    "family": "Rubiaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Usnea Dill. ex Adans., 1763",
+    "family": "Parmeliaceae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Pouteria Aubl.",
+    "family": "Sapotaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Philautus Gistel, 1848",
+    "family": "Rhacophoridae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Osbeckia L.",
+    "family": "Melastomataceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Elaphoglossum callifolium (Blume) J.Sm.",
+    "family": "Dryopteridaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Parmotrema crinitum (Ach.) M.Choisy",
+    "family": "Parmeliaceae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Rhodomyrtus (DC.) Rchb.",
+    "family": "Myrtaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Prosaptia C.Presl",
+    "family": "Polypodiaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Hypsipetes philippinus (J.R.Forster, 1795)",
+    "family": "Pycnonotidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Centropus sinensis (Stephens, 1815)",
+    "family": "Cuculidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Junonia hedonia (Linnaeus, 1764)",
+    "family": "Nymphalidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Medinilla copelandii Merr.",
+    "family": "Melastomataceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Gallus gallus (Linnaeus, 1758)",
+    "family": "Phasianidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Gambusia affinis (Baird & Girard, 1853)",
+    "family": "Poeciliidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Crepidium Blume",
+    "family": "Orchidaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Ptilocichla mindanensis (W.Blasius, 1890)",
+    "family": "Pellorneidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Arhopala corinda (Hewitson, 1869)",
+    "family": "Lycaenidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Phylloscopus borealis (J.H.Blasius, 1858)",
+    "family": "Phylloscopidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Anguilla marmorata Quoy & Gaimard, 1824",
+    "family": "Anguillidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Rusa marianna (Desmarest, 1822)",
+    "family": "Cervidae",
+    "group": "Fauna",
+    "iucnStatus": "VU"
+  },
+  {
+    "scientificName": "Psychotria L.",
+    "family": "Rubiaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Lipinia pulchella (Gray, 1845)",
+    "family": "Scincidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Zeuxidia sibulana Honrath, 1884",
+    "family": "Nymphalidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Austroblechnum patersonii subsp. patersonii",
+    "family": "Blechnaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Vittaria J.E.Sm.",
+    "family": "Pteridaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Cyrtodactylus annulatus (Taylor, 1915)",
+    "family": "Gekkonidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Vagrans egista (Cramer, 1780)",
+    "family": "Nymphalidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Sticta (Schreb.) Ach., 1803",
+    "family": "Lobariaceae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Arachnothera clarae W.Blasius, 1890",
+    "family": "Nectariniidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Polygala L.",
+    "family": "Polygalaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Poecilia reticulata Peters, 1859",
+    "family": "Poeciliidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Graphium agamemnon (Linnaeus, 1758)",
+    "family": "Papilionidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Lysiteles Simon, 1895",
+    "family": "Thomisidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Lonchura leucogastra (Blyth, 1846)",
+    "family": "Estrildidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Gasteracantha Sundevall, 1833",
+    "family": "Araneidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Coelogyne Lindl.",
+    "family": "Orchidaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Papilio palinurus Fabricius, 1787",
+    "family": "Papilionidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Saurauia polysperma (Blanco) Merr.",
+    "family": "Actinidiaceae",
+    "group": "Flora",
+    "iucnStatus": "NT"
+  },
+  {
+    "scientificName": "Uromyrtus Burret",
+    "family": "Myrtaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Fagraea Thunb.",
+    "family": "Gentianaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Orchidaceae",
+    "family": "Orchidaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Butis amboinensis (Bleeker, 1853)",
+    "family": "Eleotridae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Alpinia Roxb.",
+    "family": "Zingiberaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Scaevola micrantha C.Presl",
+    "family": "Goodeniaceae",
+    "group": "Flora",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Oxyrhabdium leporinum (Günther, 1858)",
+    "family": "Cyclocoridae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Euploea eunice (Godart)",
+    "family": "Nymphalidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Argostemma Wall.",
+    "family": "Rubiaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Dischidia R.Br.",
+    "family": "Apocynaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Batomys hamiguitan Balete, Heaney, Rickart, Quidlat & Ibanez, 2008",
+    "family": "Muridae",
+    "group": "Fauna",
+    "iucnStatus": "DD"
+  },
+  {
+    "scientificName": "Dendrobium auriculatum Ames & Quisumb.",
+    "family": "Orchidaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Belisana Thorell, 1898",
+    "family": "Pholcidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Graphidaceae",
+    "family": "Graphidaceae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Dicranopteris linearis (Burm.fil.) Underw.",
+    "family": "Gleicheniaceae",
+    "group": "Flora",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Coccocarpia Pers.",
+    "family": "Coccocarpiaceae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Fissurina Fée, 1825",
+    "family": "Graphidaceae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Sapotaceae",
+    "family": "Sapotaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Selaginella sparsifolia (Desv.) Badré",
+    "family": "Selaginellaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Vaccinium L.",
+    "family": "Ericaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Jamides celeno (Cramer, 1775)",
+    "family": "Lycaenidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Papilio deiphobus Linnaeus, 1758",
+    "family": "Papilionidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Arhopala Boisduval, 1832",
+    "family": "Lycaenidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Dendrelaphis marenae Vogel & Van Rooijen, 2008",
+    "family": "Colubridae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Paradoxurus hermaphroditus (Pallas, 1777)",
+    "family": "Viverridae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Podogymnura Mearns, 1905",
+    "family": "Erinaceidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Suada albinus (Semper, 1892)",
+    "family": "Hesperiidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Palhinhaea cernua (L.) Vasc. & Franco",
+    "family": "Lycopodiaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Limnonectes leytensis (Boettger, 1893)",
+    "family": "Dicroglossidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Paruparo Takanami, 1982",
+    "family": "Lycaenidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Aplonis minor (Bonaparte, 1850)",
+    "family": "Sturnidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Hoya wayetii Kloppenb.",
+    "family": "Apocynaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Liparis Rich.",
+    "family": "Orchidaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Pandanus Parkinson",
+    "family": "Pandanaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Gibbosporina Elvebakk et al.",
+    "family": "Pannariaceae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Kerivoula hardwickii (Horsfield, 1824)",
+    "family": "Vespertilionidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Caleta Fruhstorfer, 1922",
+    "family": "Lycaenidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Belisana apo Huber, 2005",
+    "family": "Pholcidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Osmoxylon Miq.",
+    "family": "Araliaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Schizaea dichotoma (L.) Sm.",
+    "family": "Schizaeaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Lycaenidae",
+    "family": "Lycaenidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Allotinus punctatus (Semper, 1889)",
+    "family": "Lycaenidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Amathusia phidippus (Linnaeus, 1763)",
+    "family": "Nymphalidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Macropygia phasianella (Temminck, 1821)",
+    "family": "Columbidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Gomphandra Wall. ex Lindl.",
+    "family": "Stemonuraceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Nephila pilipes (Fabricius, 1793)",
+    "family": "Araneidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Bubulcus ibis (Linnaeus, 1758)",
+    "family": "Ardeidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Oligodon maculatus (Taylor, 1918)",
+    "family": "Colubridae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Microhierax erythrogenys (Vigors, 1831)",
+    "family": "Falconidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Cyclosa Menge, 1866",
+    "family": "Araneidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Penelopides panini (Boddaert, 1783)",
+    "family": "Bucerotidae",
+    "group": "Fauna",
+    "iucnStatus": "EN"
+  },
+  {
+    "scientificName": "Calamus cumingianus Becc.",
+    "family": "Arecaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Stiphodon atropurpureus (Herre, 1927)",
+    "family": "Gobiidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Panjange Deeleman-Reinhold & Deeleman, 1983",
+    "family": "Pholcidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Oreogrammitis Copel.",
+    "family": "Polypodiaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Jamides Hübner, 1819",
+    "family": "Lycaenidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Polyscias J.R.Forst. & G.Forst.",
+    "family": "Araliaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Pithecophaga jefferyi Ogilvie-Grant, 1896",
+    "family": "Accipitridae",
+    "group": "Fauna",
+    "iucnStatus": "CR"
+  },
+  {
+    "scientificName": "Poritia philota Hewitson, 1874",
+    "family": "Lycaenidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Odontochilus philippinensis (Ames) J.M.H.Shaw",
+    "family": "Orchidaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Selaginella llanosii Hieron.",
+    "family": "Selaginellaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Ancistroides nigrita (Latreille, 1824)",
+    "family": "Hesperiidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Harpactes ardens (Temminck, 1826)",
+    "family": "Trogonidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Hasora chromus (Cramer, 1780)",
+    "family": "Hesperiidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Streptopelia bitorquata (Temminck, 1809)",
+    "family": "Columbidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Astronia Blume",
+    "family": "Melastomataceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Harpyionycteris whiteheadi Thomas, 1896",
+    "family": "Pteropodidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Haliastur indus (Boddaert, 1783)",
+    "family": "Accipitridae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Bubo philippensis Kaup, 1851",
+    "family": "Strigidae",
+    "group": "Fauna",
+    "iucnStatus": "VU"
+  },
+  {
+    "scientificName": "Ptenochirus wetmorei (Taylor, 1934)",
+    "family": "Pteropodidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Euploea mulciber (Cramer, 1777)",
+    "family": "Nymphalidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Alphitonia Reissek ex Endl.",
+    "family": "Rhamnaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Rutaceae",
+    "family": "Rutaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Selaginella P.Beauv.",
+    "family": "Selaginellaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Nephrolepis biserrata (Sw.) Desv.",
+    "family": "Nephrolepidaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Medinilla banahaensis Elmer",
+    "family": "Melastomataceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Draco bimaculatus Günther, 1864",
+    "family": "Agamidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Adinandra Jack",
+    "family": "Pentaphylacaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Ambassis interrupta Bleeker, 1853",
+    "family": "Ambassidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Coladenia Moore, 1881",
+    "family": "Hesperiidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Pannariaceae",
+    "family": "Pannariaceae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Eurema blanda (Boisduval, 1836)",
+    "family": "Pieridae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Gymnothorax Bloch, 1795",
+    "family": "Muraenidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Tapeinidium luzonicum (Hook.) K.U.Kramer",
+    "family": "Lindsaeaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Eumitria baileyi Stirt.",
+    "family": "Parmeliaceae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Sphenomorphus variegatus (Peters, 1867)",
+    "family": "Scincidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Dophla evelina",
+    "family": "Nymphalidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Hippichthys heptagonus Bleeker, 1849",
+    "family": "Syngnathidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Allotinus corbeti Eliot, 1956",
+    "family": "Lycaenidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Rousettus amplexicaudatus (E.Geoffroy, 1810)",
+    "family": "Pteropodidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Pycnonotus goiavier (Scopoli, 1786)",
+    "family": "Pycnonotidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Daphniphyllum Blume",
+    "family": "Daphniphyllaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Leptospermum J.R.Forst. & G.Forst.",
+    "family": "Myrtaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Calamaria gervaisii Duméril, Bibron & Duméril, 1854",
+    "family": "Colubridae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Medinilla myrtiformis (Naudin) Triana",
+    "family": "Melastomataceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Nisaetus pinskeri (Preleuthner & Gamauf, 1998)",
+    "family": "Accipitridae",
+    "group": "Fauna",
+    "iucnStatus": "EN"
+  },
+  {
+    "scientificName": "Ceyx melanurus (Kaup, 1848)",
+    "family": "Alcedinidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Limnonectes magnus (Stejneger, 1910)",
+    "family": "Dicroglossidae",
+    "group": "Fauna",
+    "iucnStatus": "NT"
+  },
+  {
+    "scientificName": "Odontoptilum leptogramma (Hewitson, 1868)",
+    "family": "Hesperiidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Ternstroemia Mutis ex L.f.",
+    "family": "Pentaphylacaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Begonia L.",
+    "family": "Begoniaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Staurois natator (Günther, 1858)",
+    "family": "Ranidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Ficedula basilanica (Sharpe, 1877)",
+    "family": "Muscicapidae",
+    "group": "Fauna",
+    "iucnStatus": "VU"
+  },
+  {
+    "scientificName": "Cyrestis maenalis Erichson, 1834",
+    "family": "Nymphalidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Sicyopterus lagocephalus (Pallas, 1770)",
+    "family": "Gobiidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Catopsilia pyranthe (Linnaeus, 1758)",
+    "family": "Pieridae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Pteris pellucida C.Presl",
+    "family": "Pteridaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Prosotas nora (Felder, 1860)",
+    "family": "Lycaenidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Medinilla teysmannii Miq.",
+    "family": "Melastomataceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Bindahara phocides (Fabricius, 1793)",
+    "family": "Lycaenidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Graphium eurypylus (Linnaeus, 1758)",
+    "family": "Papilionidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Planiliza subviridis (Valenciennes, 1836)",
+    "family": "Mugilidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Chrysocolaptes lucidus (Scopoli, 1786)",
+    "family": "Picidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Leptocoma sperata (Linnaeus, 1766)",
+    "family": "Nectariniidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Actinodaphne Nees",
+    "family": "Lauraceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Dicrurus hottentottus (Linnaeus, 1766)",
+    "family": "Dicruridae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Gandaca harina (Horsfield, 1829)",
+    "family": "Pieridae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Platymantis guentheri (Boulenger, 1882)",
+    "family": "Ceratobatrachidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Zosterops montanus Bonaparte, 1850",
+    "family": "Zosteropidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Gallicolumba crinigera (Reichenbach, 1851)",
+    "family": "Columbidae",
+    "group": "Fauna",
+    "iucnStatus": "VU"
+  },
+  {
+    "scientificName": "Ptenochirus minor Yoshiyuki, 1979",
+    "family": "Pteropodidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Argiope Audouin, 1826",
+    "family": "Araneidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Decaspermum J.R.Forst. & G.Forst.",
+    "family": "Myrtaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Bhanotia fasciolata (Duméril, 1870)",
+    "family": "Syngnathidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Podochilus Blume",
+    "family": "Orchidaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Carlito syrichta syrichta (Linnaeus, 1758)",
+    "family": "Tarsiidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Hymenophyllum J.E.Sm.",
+    "family": "Hymenophyllaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Lexias panopus",
+    "family": "Nymphalidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Gnetum L.",
+    "family": "Gnetaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Ansonia muelleri (Boulenger, 1887)",
+    "family": "Bufonidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Arhopala arsenius (Felder, 1865)",
+    "family": "Lycaenidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Brachymeles orientalis Brown & Rabor, 1967",
+    "family": "Scincidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Parvoscincus decipiens (Boulenger, 1895)",
+    "family": "Scincidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Melastoma malabathricum L.",
+    "family": "Melastomataceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Draco cyanopterus Peters, 1867",
+    "family": "Agamidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Thyene Simon",
+    "family": "Salticidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Potanthus mingo (Edwards, 1866)",
+    "family": "Hesperiidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Platymantis corrugatus (Duméril, 1853)",
+    "family": "Ceratobatrachidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Gymnosphaera Blume",
+    "family": "Cyatheaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Philautus surdus (Peters, 1863)",
+    "family": "Rhacophoridae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Aplopeltura boa (Boie, 1828)",
+    "family": "Pareidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Isma feralia (Hewitson, 1868)",
+    "family": "Hesperiidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Hymenophyllum acanthoides (Bosch) Rosenst.",
+    "family": "Hymenophyllaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Eurema hecabe (Linnaeus, 1758)",
+    "family": "Pieridae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Rattus exulans (Peale, 1848)",
+    "family": "Muridae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Tropidophorus davaoensis Bacon, 1980",
+    "family": "Scincidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Troides rhadamantus (Lucas, 1835)",
+    "family": "Papilionidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Arisbe Hübner",
+    "family": "",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Timonius Rumph. ex DC.",
+    "family": "Rubiaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Cyrtandra J.R.Forst. & G.Forst.",
+    "family": "Gesneriaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Prothoe franckii semperi Honrath, 1884",
+    "family": "Nymphalidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Spathoglottis aurea Lindl.",
+    "family": "Orchidaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Calanthe obcordata (Lindl.) M.W.Chase, Christenh. & Schuit.",
+    "family": "Orchidaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Euonymus indicus B.Heyne ex Roxb.",
+    "family": "Celastraceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Celastraceae",
+    "family": "Celastraceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Asplenium nidus L.",
+    "family": "Aspleniaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Hypolimnas anomala (Wallace, 1869)",
+    "family": "Nymphalidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Sus philippensis Nehring, 1886",
+    "family": "Suidae",
+    "group": "Fauna",
+    "iucnStatus": "VU"
+  },
+  {
+    "scientificName": "Oriens californica (Scudder, 1872)",
+    "family": "Hesperiidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Sundasciurus philippinensis (Waterhouse, 1839)",
+    "family": "Sciuridae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Euchrysops cnejus (Fabricius, 1798)",
+    "family": "Lycaenidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Megalospora Meyen",
+    "family": "Megalosporaceae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Caprimulgus manillensis Walden, 1875",
+    "family": "Caprimulgidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Arhopala aedias (Hewitson, 1862)",
+    "family": "Lycaenidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Pterygoplichthys pardalis (Castelnau, 1855)",
+    "family": "Loricariidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Pardosa Koch, 1847",
+    "family": "Lycosidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Agathis Salisb.",
+    "family": "Araucariaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Lasippa pata (Moore, 1858)",
+    "family": "Nymphalidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Cynocephalus volans (Linnaeus, 1758)",
+    "family": "Cynocephalidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Platymantis Günther, 1858",
+    "family": "Ceratobatrachidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Antidesma L.",
+    "family": "Phyllanthaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Haplonycteris fischeri Lawrence, 1939",
+    "family": "Pteropodidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Todiramphus winchelli (Sharpe, 1877)",
+    "family": "Alcedinidae",
+    "group": "Fauna",
+    "iucnStatus": "VU"
+  },
+  {
+    "scientificName": "Selliguea elmeri (Copel.) Ching",
+    "family": "Polypodiaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Chalcophaps indica (Linnaeus, 1758)",
+    "family": "Columbidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Crocidura beatus Miller, 1910",
+    "family": "Soricidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Euonymus L.",
+    "family": "Celastraceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Melanitis atrax (Felder, 1863)",
+    "family": "Nymphalidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Tanaecia leucotaenia Semper, 1878",
+    "family": "Nymphalidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Commersonia bartramia (L.) Merr.",
+    "family": "Malvaceae",
+    "group": "Flora",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Stiphodon elegans (Steindachner, 1879)",
+    "family": "Gobiidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Charaxes antonius Semper, 1878",
+    "family": "Nymphalidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Pericrocotus flammeus (J.R.Forster, 1781)",
+    "family": "Campephagidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Artamus leucoryn (Linnaeus, 1771)",
+    "family": "Artamidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Eurema alitha (Felder & Felder, 1862)",
+    "family": "Pieridae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Cryptostylis carinata J.J.Sm.",
+    "family": "Orchidaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Tropidonophis dendrophiops (Günther, 1883)",
+    "family": "Colubridae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Lamiaceae",
+    "family": "Lamiaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Brachymeles schadenbergi (Fischer, 1885)",
+    "family": "Scincidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Arhopala alitaeus (Hewitson, 1862)",
+    "family": "Lycaenidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Papilio helenus Linnaeus, 1758",
+    "family": "Papilionidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Hymenophyllum polyanthos (Sw.) Sw.",
+    "family": "Hymenophyllaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Clethra L.",
+    "family": "Clethraceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Leucosyke Zoll. & Moritzi",
+    "family": "Urticaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "incertae sedis",
+    "family": "",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Bullimus bagobus Mearns, 1905",
+    "family": "Muridae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Neptis pampanga Felder, 1863",
+    "family": "Nymphalidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Ypthima pandocus (Moore, 1857)",
+    "family": "Nymphalidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Gleichenia dicarpa R.Br.",
+    "family": "Gleicheniaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Scleroglossum pusillum (Blume) Alderw.",
+    "family": "Polypodiaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Usnea pulvinata Fr.",
+    "family": "Parmeliaceae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Cyrtodactylus philippinicus (Steindachner, 1867)",
+    "family": "Gekkonidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Lecanopteris Reinw.",
+    "family": "Polypodiaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Eutropis borealis (Brown & Alcala, 1980)",
+    "family": "Scincidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Leptobrachium lumadorum Brown, Siler, Diesmos & Alcala, 2010",
+    "family": "Megophryidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Beccarianthus pulcherrimus (Merr.) J.F.Maxwell",
+    "family": "Melastomataceae",
+    "group": "Flora",
+    "iucnStatus": "NT"
+  },
+  {
+    "scientificName": "Delias magsadana",
+    "family": "Pieridae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Halpe luteisquama Mabille, 1876",
+    "family": "Hesperiidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Limnonectes diuatus (Brown & Alcala, 1977)",
+    "family": "Dicroglossidae",
+    "group": "Fauna",
+    "iucnStatus": "VU"
+  },
+  {
+    "scientificName": "Cladonia P.Browne, 1756",
+    "family": "Cladoniaceae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Polyspora luzonica (S.Vidal) Orel, Peter G.Wilson, Curry & Luu",
+    "family": "Theaceae",
+    "group": "Flora",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Saurauia Willd.",
+    "family": "Actinidiaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Polygala venenosa Juss. ex Poir.",
+    "family": "Polygalaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Cryptostylis R.Br.",
+    "family": "Orchidaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Ptilinopus occipitalis G.R.Gray, 1844",
+    "family": "Columbidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Davallia repens (L.fil.) Kuhn",
+    "family": "Davalliaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Lindsaea Dryand. ex J.E.Sm.",
+    "family": "Lindsaeaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Lycodon dumerilii (Boulenger, 1893)",
+    "family": "Colubridae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Copsychus saularis (Linnaeus, 1758)",
+    "family": "Muscicapidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Cethosia luzonica C.Felder & R.Felder, 1863",
+    "family": "Nymphalidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Wikstroemia Endl.",
+    "family": "Thymelaeaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Dilochia Lindl.",
+    "family": "Orchidaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Horaga lefebvrei (Felder, 1862)",
+    "family": "Lycaenidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Gasteracantha parangdiadesmia Barrion & Litsinger, 1995",
+    "family": "Araneidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Tomophyllum (E.Fourn.) Parris",
+    "family": "Polypodiaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Helicia Lour.",
+    "family": "Proteaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Phaeacius Simon, 1900",
+    "family": "Salticidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Macronus striaticeps Sharpe, 1877",
+    "family": "Timaliidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Aethopyga pulcherrima Sharpe, 1876",
+    "family": "Nectariniidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Discophora philippina Moore, 1895",
+    "family": "Nymphalidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Lethe chandica (Moore, 1857)",
+    "family": "Nymphalidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Junonia orithya Linnaeus, 1758",
+    "family": "Nymphalidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Canarium gracile Engl.",
+    "family": "Burseraceae",
+    "group": "Flora",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Nepenthes L.",
+    "family": "Nepenthaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Cepora aspasia (Stoll, 1790)",
+    "family": "Pieridae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Oligolepis acutipennis (Valenciennes, 1837)",
+    "family": "Gobiidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Phapitreron amethystinus Bonaparte, 1855",
+    "family": "Columbidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Lamprolepis smaragdina (Lesson, 1829)",
+    "family": "Scincidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Terapon jarbua (Forsskål, 1775)",
+    "family": "Terapontidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Paphiopedilum ciliolare (Rchb.f.) Stein",
+    "family": "Orchidaceae",
+    "group": "Flora",
+    "iucnStatus": "EN"
+  },
+  {
+    "scientificName": "Boiga cynodon (Boie, 1827)",
+    "family": "Colubridae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Plenasium banksiifolium (C.Presl) C.Presl",
+    "family": "Osmundaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Carlito syrichta (Linnaeus, 1758)",
+    "family": "Tarsiidae",
+    "group": "Fauna",
+    "iucnStatus": "NT"
+  },
+  {
+    "scientificName": "Oxyopes Latreille, 1806",
+    "family": "Oxyopidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Adiantum hosei Baker",
+    "family": "Pteridaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Arachnothera flammifera Tweeddale, 1878",
+    "family": "Nectariniidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Gorsachius goisagi (Temminck, 1836)",
+    "family": "Ardeidae",
+    "group": "Fauna",
+    "iucnStatus": "VU"
+  },
+  {
+    "scientificName": "Doryichthys boaja (Bleeker, 1850)",
+    "family": "Syngnathidae",
+    "group": "Fauna",
+    "iucnStatus": "DD"
+  },
+  {
+    "scientificName": "Coelogyne kopfii (Lückel) M.W.Chase & Schuit.",
+    "family": "Orchidaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Medinilla pendula Merr.",
+    "family": "Melastomataceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Leptosia nina (Fabricius, 1793)",
+    "family": "Pieridae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Lindsaea gueriniana (Gaudich.) Desv.",
+    "family": "Lindsaeaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Aethopyga shelleyi Sharpe, 1876",
+    "family": "Nectariniidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Todiramphus chloris (Boddaert, 1783)",
+    "family": "Alcedinidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Hasora khoda (Mabille, 1876)",
+    "family": "Hesperiidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Acrophtalmia artemis Felder, 1861",
+    "family": "Nymphalidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Ptenochirus jagorii (Peters, 1861)",
+    "family": "Pteropodidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Pantoporia cyrilla (Felder, 1863)",
+    "family": "Nymphalidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Ophichthus apicalis (Bennett, 1830) Bennett, 1830",
+    "family": "Ophichthidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Tirumala hamata (MacLeay, 1826)",
+    "family": "Nymphalidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Parasteatoda Archer, 1946",
+    "family": "Theridiidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Rattus tanezumi (Temminck, 1845)",
+    "family": "Muridae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Davallia angustata Wall. ex Hook. & Grev.",
+    "family": "Davalliaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Lonchura atricapilla (Vieillot, 1807)",
+    "family": "Estrildidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Dictyonema C.Agardh ex Kunth, 1822",
+    "family": "Hygrophoraceae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Syzygium Gaertn.",
+    "family": "Myrtaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Pitta steerii (Sharpe, 1876)",
+    "family": "Pittidae",
+    "group": "Fauna",
+    "iucnStatus": "VU"
+  },
+  {
+    "scientificName": "Cirrochroa tyche Felder, 1861",
+    "family": "Nymphalidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Guioa Cav.",
+    "family": "Sapindaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Cassia L.",
+    "family": "Fabaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Cyclocorus nuchalis Taylor, 1923",
+    "family": "Cyclocoridae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Pernis steerei W.L.Sclater, 1919",
+    "family": "Accipitridae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Oxyrhabdium modestum (Duméril, 1853)",
+    "family": "Cyclocoridae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Arhopala matsutaroi (Hayashi, 1979)",
+    "family": "Lycaenidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Phyllergates cuculatus (Temminck, 1836)",
+    "family": "Cettiidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Boiga dendrophila (Boie, 1827)",
+    "family": "Colubridae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Delias hyparete (Linnaeus, 1758)",
+    "family": "Pieridae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Appendicula pendula Blume",
+    "family": "Orchidaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Glochidion album (Blanco) Boerl.",
+    "family": "Phyllanthaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Ceyx argentatus Tweeddale, 1877",
+    "family": "Alcedinidae",
+    "group": "Fauna",
+    "iucnStatus": "NT"
+  },
+  {
+    "scientificName": "Astronia ferruginea Elmer",
+    "family": "Melastomataceae",
+    "group": "Flora",
+    "iucnStatus": "NT"
+  },
+  {
+    "scientificName": "Lampides cleodus (Felder, 1865)",
+    "family": "Lycaenidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Tagiades trebellius (Hopffer, 1874)",
+    "family": "Hesperiidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Tarenna Gaertn.",
+    "family": "Rubiaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Abisara mindanaensis Semper, 1892",
+    "family": "Lycaenidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Sanguirana everetti (Boulenger, 1882)",
+    "family": "Ranidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Lanius cristatus Linnaeus, 1758",
+    "family": "Laniidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Cepora boisduvaliana (Felder & Felder, 1862)",
+    "family": "Pieridae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Rattus everetti (Günther, 1879)",
+    "family": "Muridae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Vaccinium gitingense Elmer",
+    "family": "Ericaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Pantoporia maena (Felder, 1863)",
+    "family": "Nymphalidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Pithecops corvus Fruhstorfer, 1919",
+    "family": "Lycaenidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Appias olferna Swinhoe, 1890",
+    "family": "Pieridae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Oxyeleotris lineolata (Steindachner, 1867)",
+    "family": "Eleotridae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Hedyotis L.",
+    "family": "Rubiaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Pterocymbium tinctorium (Blanco) Merr.",
+    "family": "Malvaceae",
+    "group": "Flora",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Turdus obscurus Gmelin, 1789",
+    "family": "Turdidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Centropus melanops Lesson, 1830",
+    "family": "Cuculidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Myristica Gronov.",
+    "family": "Myristicaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Acrophtalmia C.Felder & R.Felder, 1861",
+    "family": "Nymphalidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Neoscona Simon, 1864",
+    "family": "Araneidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Drynaria sparsisora (Desv.) T.Moore",
+    "family": "Polypodiaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Rauvolfia L.",
+    "family": "Apocynaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Phintella Strand, 1906",
+    "family": "Salticidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Macroglossus minimus (E.Geoffroy, 1810)",
+    "family": "Pteropodidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Elatostema J.R.Forst. & G.Forst.",
+    "family": "Urticaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Ptychognathus altimanus (Rathbun, 1914)",
+    "family": "Varunidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Channa striata (Bloch, 1793)",
+    "family": "Channidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Kalophrynus sinensis Peters, 1867",
+    "family": "Microhylidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Ambassis dussumieri Cuvier, 1828",
+    "family": "Ambassidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Libythea geoffroy Godart",
+    "family": "Nymphalidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Leptochilus decurrens Blume",
+    "family": "Polypodiaceae",
+    "group": "Flora",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Proteaceae",
+    "family": "Proteaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Symplocos Jacq.",
+    "family": "Symplocaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Rapala varuna (Horsfield, 1829)",
+    "family": "Lycaenidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Pachycephala philippinensis (Walden, 1872)",
+    "family": "Pachycephalidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Dendrobium uniflorum Griff.",
+    "family": "Orchidaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Melicope J.R.Forst. & G.Forst.",
+    "family": "Rutaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Oxyeleotris Bleeker, 1874",
+    "family": "Eleotridae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Psilotum nudum (L.) P.Beauv.",
+    "family": "Psilotaceae",
+    "group": "Flora",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Appias nero (Fabricius, 1793)",
+    "family": "Pieridae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Phyllopsora Müll.Arg.",
+    "family": "Ramalinaceae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Psilopogon haemacephalus (P.L.S.Müller, 1776)",
+    "family": "Megalaimidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Rhipidura javanica (Sparrman, 1788)",
+    "family": "Rhipiduridae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Litsea Lam.",
+    "family": "Lauraceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Papilio demoleus Linnaeus, 1758",
+    "family": "Papilionidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Smilax L.",
+    "family": "Smilacaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Callogobius hastatus McKinney & Lachner, 1978",
+    "family": "Gobiidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Flagellaria indica L.",
+    "family": "Flagellariaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Ascarina J.R.Forst. & G.Forst.",
+    "family": "Chloranthaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Medinilla quadrifolia (Blume) Blume",
+    "family": "Melastomataceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Rhabdophis auriculatus (Günther, 1858)",
+    "family": "Colubridae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Hypolimnas misippus Linnaeus, 1764",
+    "family": "Nymphalidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Eurya Thunb.",
+    "family": "Pentaphylacaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Mycalesis ita Felder, 1863",
+    "family": "Nymphalidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Lipinia quadrivittata (Peters, 1867)",
+    "family": "Scincidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Sicyopus zosterophorus (Bleeker, 1856)",
+    "family": "Gobiidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Penelopides affinis Tweeddale, 1877",
+    "family": "Bucerotidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Leptogium (Ach.) Gray, 1821",
+    "family": "Collemataceae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Notocrypta paralysos (Wood-Mason & de Nicéville, 1881)",
+    "family": "Hesperiidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Corvus macrorhynchos Wagler, 1827",
+    "family": "Corvidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Ficus ruficaulis Merr.",
+    "family": "Moraceae",
+    "group": "Flora",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Gonyosoma oxycephalum (Boie, 1827)",
+    "family": "Colubridae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Ficedula crypta (Vaurie, 1951)",
+    "family": "Muscicapidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Otus everetti (Tweeddale, 1879)",
+    "family": "Strigidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Tagiades gana (Moore, 1865)",
+    "family": "Hesperiidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Melanitis leda Linnaeus, 1758",
+    "family": "Nymphalidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Psammodynastes pulverulentus (Boie, 1827)",
+    "family": "Pseudaspididae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Delias baracasa Semper, 1890",
+    "family": "Pieridae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Ophiocara porocephala (Valenciennes, 1837)",
+    "family": "Eleotridae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Notocrypta feisthamelii (Boisduval, 1832)",
+    "family": "Hesperiidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Leptomantis bimaculatus Peters, 1867",
+    "family": "Rhacophoridae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Nephila Leach, 1815",
+    "family": "Araneidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Aetana Huber, 2005",
+    "family": "Pholcidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Nisaetus philippensis (Gould, 1863)",
+    "family": "Accipitridae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Philautus poecilius Brown & Alcala, 1994",
+    "family": "Rhacophoridae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Pertusaria DC., 1805",
+    "family": "Pertusariaceae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Kallima sylvia (Cramer, 1776)",
+    "family": "Nymphalidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Dyschiriognatha Simon, 1893",
+    "family": "Tetragnathidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Cinnamomum Schaeff.",
+    "family": "Lauraceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Petinomys crinitus (Hollister, 1911)",
+    "family": "Sciuridae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Malayopython reticulatus (Schneider, 1801)",
+    "family": "Pythonidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Otus megalotis (Walden, 1875)",
+    "family": "Strigidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Mycaranthes Blume",
+    "family": "Orchidaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Aethopyga primigenia (Hachisuka, 1941)",
+    "family": "Nectariniidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Medinilla Gaudich. ex DC.",
+    "family": "Melastomataceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Rhyacichthys aspro (Valenciennes, 1837)",
+    "family": "Rhyacichthyidae",
+    "group": "Fauna",
+    "iucnStatus": "DD"
+  },
+  {
+    "scientificName": "Philautus acutirostris (Peters, 1867)",
+    "family": "Rhacophoridae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Mooreana princeps (Semper, 1892)",
+    "family": "Hesperiidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Styphelia Sm.",
+    "family": "Ericaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Rhipidura superciliaris (Sharpe, 1877)",
+    "family": "Rhipiduridae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Ideopsis gaura Horsfield, 1829",
+    "family": "Nymphalidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Gekko mindorensis Taylor, 1919",
+    "family": "Gekkonidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Spilornis cheela (Latham, 1790)",
+    "family": "Accipitridae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Eurema sarilata (Semper, 1891)",
+    "family": "Pieridae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Jamides alecto (Felder, 1860)",
+    "family": "Lycaenidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Asteraceae",
+    "family": "Asteraceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Tinospora Miers",
+    "family": "Menispermaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Usnea himalayana Church.Bab.",
+    "family": "Parmeliaceae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Eleotris fusca (Forster, 1801)",
+    "family": "Eleotridae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Larinia Simon, 1874",
+    "family": "Araneidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Alchornea Sw.",
+    "family": "Euphorbiaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Lonchura punctulata (Linnaeus, 1758)",
+    "family": "Estrildidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Symplocos polyandra (Blanco) Brand",
+    "family": "Symplocaceae",
+    "group": "Flora",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Faunis phaon Erichson, 1843",
+    "family": "Nymphalidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Macrosolen (Blume) Rchb.",
+    "family": "Loranthaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Moduza thespias",
+    "family": "Nymphalidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Parus elegans",
+    "family": "Paridae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Catopsilia pomona (Fabricius, 1775)",
+    "family": "Pieridae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Hymenophyllum pallidum (Blume) Ebihara & K.Iwats.",
+    "family": "Hymenophyllaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Graphium sarpedon (Linnaeus, 1758)",
+    "family": "Papilionidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Tetragnatha Walckenaer, 1805",
+    "family": "Tetragnathidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Euthalia lubentina Cramer, 1779",
+    "family": "Nymphalidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Trichotosia Blume",
+    "family": "Orchidaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Ideopsis juventa (Cramer)",
+    "family": "Nymphalidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Polyalthia Blume",
+    "family": "Annonaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Anas luzonica Fraser, 1839",
+    "family": "Anatidae",
+    "group": "Fauna",
+    "iucnStatus": "VU"
+  },
+  {
+    "scientificName": "Culicicapa helianthea (Wallace, 1865)",
+    "family": "Stenostiridae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Medinilla theresae Fernando",
+    "family": "Melastomataceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Collocalia troglodytes G.R.Gray, 1845",
+    "family": "Apodidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Sticherus loheri (Christ) Copel.",
+    "family": "Gleicheniaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Sphenomorphus fasciatus (Gray, 1845)",
+    "family": "Scincidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Bulbophyllum hampeliae Cootes, R.Boos & Naive",
+    "family": "Orchidaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Tristaniopsis Brongn. & Gris",
+    "family": "Myrtaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Lentipes mindanaoensis Chen, 2004",
+    "family": "Gobiidae",
+    "group": "Fauna",
+    "iucnStatus": "DD"
+  },
+  {
+    "scientificName": "Lithocarpus Blume",
+    "family": "Fagaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Symbrenthia hypselis assama Fruhstorfer, 1900",
+    "family": "Nymphalidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Lonchura malacca (Linnaeus, 1766)",
+    "family": "Estrildidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Mycalesis treadawayi (Schröder, 1976)",
+    "family": "Nymphalidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Macaca fascicularis (Raffles, 1821)",
+    "family": "Cercopithecidae",
+    "group": "Fauna",
+    "iucnStatus": "EN"
+  },
+  {
+    "scientificName": "Ternstroemia philippinensis Merr.",
+    "family": "Pentaphylacaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Gonocephalus semperi (Peters, 1867)",
+    "family": "Agamidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Thelypteris Schmidel",
+    "family": "Thelypteridaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Tajuria jalajala (Felder, 1862)",
+    "family": "Lycaenidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Polypedates leucomystax (Gravenhorst, 1829)",
+    "family": "Rhacophoridae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Cyperaceae",
+    "family": "Cyperaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Ragadia melindena Felder, 1863",
+    "family": "Nymphalidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Eutropis indeprensa (Brown & Alcala, 1980)",
+    "family": "Scincidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Cisticola exilis (Vigors & Horsfield, 1827)",
+    "family": "Cisticolidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Melastoma L.",
+    "family": "Melastomataceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Catopsilia scylla (Linnaeus, 1763)",
+    "family": "Pieridae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Terinos clarissa Boisduval, 1836",
+    "family": "Nymphalidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Urogale everetti (Thomas, 1892)",
+    "family": "Tupaiidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Chapsa A.Massal.",
+    "family": "Graphidaceae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Selaginella negrosensis Hieron.",
+    "family": "Selaginellaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Vernonia Schreb.",
+    "family": "Asteraceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Phapitreron cinereiceps (Bourns & Worcester, 1894)",
+    "family": "Columbidae",
+    "group": "Fauna",
+    "iucnStatus": "EN"
+  },
+  {
+    "scientificName": "Decaisnina Tiegh.",
+    "family": "Loranthaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Eleotris acanthopoma Bleeker, 1853",
+    "family": "Eleotridae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Allomogurnda insularis Allen, 2003",
+    "family": "Eleotridae",
+    "group": "Fauna",
+    "iucnStatus": "DD"
+  },
+  {
+    "scientificName": "Leea van Royen ex L.",
+    "family": "Vitaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Limenitis Fabricius, 1807",
+    "family": "Nymphalidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Ceyx melanurus platenae W.Blasius, 1890",
+    "family": "Alcedinidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Garcinia L.",
+    "family": "Clusiaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Calapnita vermiformis Simon, 1892",
+    "family": "Pholcidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Nyctixalus spinosus (Taylor, 1920)",
+    "family": "Rhacophoridae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Sanguirana mearnsi (Stejneger, 1905)",
+    "family": "Ranidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Scaevola L.",
+    "family": "Goodeniaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Daimio Murray, 1875",
+    "family": "Hesperiidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Lamproptera meges (Zincken, 1831)",
+    "family": "Papilionidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Leptobrachium hasseltii Tschudi, 1838",
+    "family": "Megophryidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Actenoides hombroni Bonaparte, 1850",
+    "family": "Alcedinidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Rattus argentiventer (Robinson & Kloss, 1916)",
+    "family": "Muridae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Lexias satrapes",
+    "family": "Nymphalidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Christella H.Lév.",
+    "family": "Thelypteridaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Elymnias beza (Hewitson, 1877)",
+    "family": "Nymphalidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Cephalomanes atrovirens C.Presl",
+    "family": "Hymenophyllaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Batrachostomus Gould, 1838",
+    "family": "Podargidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Actinostachys inopinata (Selling) C.F.Reed",
+    "family": "Schizaeaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Epipogium Borkh.",
+    "family": "Orchidaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Loriculus philippensis (Statius Muller, 1776)",
+    "family": "Psittacidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Sciaphila Blume",
+    "family": "Triuridaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Loxogramme avenia (Blume) C.Presl",
+    "family": "Polypodiaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Parinari costata Blume",
+    "family": "Chrysobalanaceae",
+    "group": "Flora",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Elaeocarpus L.",
+    "family": "Elaeocarpaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Gasteracantha janopol Barrion & Litsinger, 1995",
+    "family": "Araneidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Hypolimnas bolina (Linnaeus, 1758)",
+    "family": "Nymphalidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Appendicula Blume",
+    "family": "Orchidaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Cupha arias (Felder, 1867)",
+    "family": "Nymphalidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Usnea nidifica Taylor",
+    "family": "Parmeliaceae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Dryocopus javensis (Horsfield, 1821)",
+    "family": "Picidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Hoya R.Br.",
+    "family": "Apocynaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Odontoptilum angulata (Felder, 1862)",
+    "family": "Hesperiidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Cacomantis variolosus (Vigors & Horsfield, 1827)",
+    "family": "Cuculidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Psammoperca waigiensis (Cuvier, 1828)",
+    "family": "Latidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Viverra tangalunga Gray, 1832",
+    "family": "Viverridae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Monodontides Toxopeus, 1927",
+    "family": "Lycaenidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Mogurnda mogurnda (Richardson, 1844)",
+    "family": "Eleotridae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Yungipicus maculatus (Scopoli, 1786)",
+    "family": "Picidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Sillago sihama (Forsskål, 1775)",
+    "family": "Sillaginidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Dendromyza Danser",
+    "family": "Amphorogynaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Phylloscopus olivaceus (Moseley, 1891)",
+    "family": "Phylloscopidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Trimeresurus flavomaculatus (Gray, 1842)",
+    "family": "Viperidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Sitta frontalis Swainson, 1820",
+    "family": "Sittidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Abrodictyum pluma (Hook.) Ebihara & K.Iwats.",
+    "family": "Hymenophyllaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Ptychandra lorquinii Felder, 1861",
+    "family": "Nymphalidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Wendlandia Bartl. ex DC.",
+    "family": "Rubiaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Tagiades Hübner",
+    "family": "Hesperiidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Ahaetulla prasina (Boie, 1827)",
+    "family": "Colubridae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Eutropis englei (Taylor, 1925)",
+    "family": "Scincidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Badamia exclamationis (Fabricius, 1775)",
+    "family": "Hesperiidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Lepisorus (J.Sm.) Ching",
+    "family": "Polypodiaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Telicota ohara (Plötz, 1883)",
+    "family": "Hesperiidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Choaspes plateni (Staudinger, 1883)",
+    "family": "Hesperiidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Dioscorea Plum. ex L.",
+    "family": "Dioscoreaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Ophiophagus hannah (Cantor, 1836)",
+    "family": "Elapidae",
+    "group": "Fauna",
+    "iucnStatus": "VU"
+  },
+  {
+    "scientificName": "Usnea bismolliuscula Zahlbr.",
+    "family": "Parmeliaceae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Baoris oceia (Hewitson, 1868)",
+    "family": "Hesperiidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Medinilla radiciflora Quisumb. & Merr.",
+    "family": "Melastomataceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Ilex L.L.",
+    "family": "Aquifoliaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Schismatogobius marmoratus (Peters, 1868)",
+    "family": "Gobiidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Kuhlia marginata (Cuvier, 1829)",
+    "family": "Kuhliidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Geniostoma J.R.Forst. & G.Forst.",
+    "family": "Loganiaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Papilio polytes Linnaeus, 1758",
+    "family": "Papilionidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Jamides bochus Stoll, 1782",
+    "family": "Lycaenidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Leptospermum javanicum Blume",
+    "family": "Myrtaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Turpinia Vent.",
+    "family": "Staphyleaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Cynopterus brachyotis (Müller, 1838)",
+    "family": "Pteropodidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Allotinus nivalis (Druce, 1873)",
+    "family": "Lycaenidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Sphaeropteris polypoda (Baker) R.M.Tryon",
+    "family": "Cyatheaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Mogannia tenebrosa Lee & Marshall, 2023",
+    "family": "Cicadidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Calymmodon C.Presl",
+    "family": "Polypodiaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Austroblechnum Gasper & V.A.O.Dittrich",
+    "family": "Blechnaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Aerodramus amelis (Oberholser, 1906)",
+    "family": "Apodidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Hypselostoma luzonicum luzonicum Möllendorff, 1888",
+    "family": "Gastrocoptidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Tectaria coadunata (Wall. ex Hook. & Grev.) C.Chr.",
+    "family": "Tectariaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Ardea Linnaeus, 1758",
+    "family": "Ardeidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Padina sanctae-crucis Børgesen",
+    "family": "Dictyotaceae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Pericrocotus speciosus (Latham, 1790)",
+    "family": "Campephagidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Pseudhelicarion compactus (Quadras & Möllendorff, 1894)",
+    "family": "Chronidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Guioa koelreuteria (Blanco) Merr.",
+    "family": "Sapindaceae",
+    "group": "Flora",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Callicarpa micrantha S.Vidal",
+    "family": "Lamiaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Hypserpa nitida Miers ex Benth.",
+    "family": "Menispermaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Chloraea sphaerion (G.B.Sowerby I, 1841)",
+    "family": "Camaenidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Chamaecrista mindanaensis (Merr.) K.Larsen",
+    "family": "Fabaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Trochomorpha beckiana (L.Pfeiffer, 1842)",
+    "family": "Trochomorphidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Archidendron pauciflorum (Benth.) I.C.Nielsen",
+    "family": "Fabaceae",
+    "group": "Flora",
+    "iucnStatus": "VU"
+  },
+  {
+    "scientificName": "Microtarsus Eyton, 1839",
+    "family": "Pycnonotidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Purana mindanaoensis Lee & Marshall, 2023",
+    "family": "Cicadidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Protoreaster nodosus (Linnaeus, 1758)",
+    "family": "Oreasteridae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Lepidagathis Willd.",
+    "family": "Acanthaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "BOLD:AAE4369",
+    "family": "Scaridae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Amyema incarnatiflora (Elmer) Danser",
+    "family": "Loranthaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Dicaeum hypoleucum Sharpe, 1876",
+    "family": "Dicaeidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Hemiprocne comata (Temminck, 1824)",
+    "family": "Hemiprocnidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Fuirena umbellata Rottb.",
+    "family": "Cyperaceae",
+    "group": "Flora",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Hirundo javanica Sparrman, 1789",
+    "family": "Hirundinidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Cyclophorus woodianus (I.Lea, 1840)",
+    "family": "Cyclophoridae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "BOLD:AAB2440",
+    "family": "Lutjanidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Obba listeri recurvata (Möllendorff, 1898)",
+    "family": "Camaenidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Pteridrys microthecia (Fée) C.Chr. & Ching",
+    "family": "Tectariaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Helicostyla pithogaster (A.Férussac, 1821)",
+    "family": "Camaenidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Chionoloma subduriusculum (Müll.Hal.) M.Menzel",
+    "family": "Pottiaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Igneocnemis tendipes (Needham & Gyger, 1941)",
+    "family": "Platycnemididae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "BOLD:AAK0631",
+    "family": "Serranidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Neofomitella rhodophaea (Lév.) Y.C.Dai, Hai J.Li & Vlasák",
+    "family": "Polyporaceae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Gallinula chloropus (Linnaeus, 1758)",
+    "family": "Rallidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Syzygium acuminatissimum (Blume) DC.",
+    "family": "Myrtaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Microtis unifolia (G.Forst.) Rchb.f.",
+    "family": "Orchidaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Fomes (Fr.) Fr., 1849",
+    "family": "Polyporaceae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Stichorkis benguetensis (Ames) Cootes",
+    "family": "Orchidaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Gerygone sulphurea Wallace, 1864",
+    "family": "Acanthizidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Batrachostomus septimus Tweeddale, 1877",
+    "family": "Podargidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Corvus Linnaeus, 1758",
+    "family": "Corvidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Macropygia tenuirostris Bonaparte, 1854",
+    "family": "Columbidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Dasycrotapha plateni (W.Blasius, 1890)",
+    "family": "Zosteropidae",
+    "group": "Fauna",
+    "iucnStatus": "NT"
+  },
+  {
+    "scientificName": "Pteridrys syrmatica (Willd.) C.Chr. & Ching",
+    "family": "Tectariaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Muscicapa griseisticta (Swinhoe, 1861)",
+    "family": "Muscicapidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Pitta erythrogaster Temminck, 1823",
+    "family": "Pittidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Syrrhopodon muelleri (Dozy & Molk.) Sande Lac.",
+    "family": "Calymperaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Selaginella cupressina (Willd.) Spring",
+    "family": "Selaginellaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Eleutherodactylus planirostris (Cope, 1862)",
+    "family": "Eleutherodactylidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Terminalia catappa L.",
+    "family": "Combretaceae",
+    "group": "Flora",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Lygodium japonicum (Thunb.) Sw.",
+    "family": "Lygodiaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Bohadschia argus Jaeger, 1833",
+    "family": "Holothuriidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Anthreptes griseigularis Tweeddale, 1878",
+    "family": "Nectariniidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Platycerium grande (A.Cunn. ex Hook.) J.Sm.",
+    "family": "Polypodiaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Nepenthes justinae Gronem., Wistuba, Mey & V.B.Amoroso",
+    "family": "Nepenthaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Edolisoma mindanense (Tweeddale, 1879)",
+    "family": "Campephagidae",
+    "group": "Fauna",
+    "iucnStatus": "VU"
+  },
+  {
+    "scientificName": "Passiflora vesicaria L.",
+    "family": "Passifloraceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Hemidactylus platyurus (Schneider, 1797)",
+    "family": "Gekkonidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Artamus leucorhynchos",
+    "family": "Artamidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Rhinocypha colorata Hagen, 1869",
+    "family": "Chlorocyphidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Dipteris conjugata Reinw.",
+    "family": "Dipteridaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Cacomantis merulinus (Scopoli, 1786)",
+    "family": "Cuculidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Lantana camara L.",
+    "family": "Verbenaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Spilornis holospilus (Vigors, 1831)",
+    "family": "Accipitridae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Neurothemis terminata Ris, 1911",
+    "family": "Libellulidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Euphorbia heterophylla L.",
+    "family": "Euphorbiaceae",
+    "group": "Flora",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Polyrhachis exotica Kohout, 1987",
+    "family": "Formicidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Sonneratia alba Sm.",
+    "family": "Lythraceae",
+    "group": "Flora",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Lalage nigra (J.R.Forster, 1781)",
+    "family": "Campephagidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Pemphis acidula J.R.Forst. & G.Forst.",
+    "family": "Lythraceae",
+    "group": "Flora",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Utricularia bifida L.",
+    "family": "Lentibulariaceae",
+    "group": "Flora",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Rhinocypha turconii Selys, 1891",
+    "family": "Chlorocyphidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Rhipidura nigritorquis Vigors, 1831",
+    "family": "Rhipiduridae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Periparus elegans (Lesson, 1831)",
+    "family": "Paridae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Pachyglossa Hodgson, 1843",
+    "family": "",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Surniculus velutinus Sharpe, 1877",
+    "family": "Cuculidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Eudynamys scolopaceus (Linnaeus, 1758)",
+    "family": "Cuculidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Dicaeum trigonostigma (Scopoli, 1786)",
+    "family": "Dicaeidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Spilopelia chinensis (Scopoli, 1786)",
+    "family": "Columbidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Dicaeum pygmaeum (Kittlitz, 1833)",
+    "family": "Dicaeidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Cypsiurus balasiensis (J.E.Gray, 1829)",
+    "family": "Apodidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Hibiscus rosa-sinensis L.",
+    "family": "Malvaceae",
+    "group": "Flora",
+    "iucnStatus": "CR"
+  },
+  {
+    "scientificName": "Ardeola speciosa (Horsfield, 1821)",
+    "family": "Ardeidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Columba vitiensis Quoy & Gaimard, 1832",
+    "family": "Columbidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Butastur indicus (Gmelin, 1788)",
+    "family": "Accipitridae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Hoya finlaysonii Wight",
+    "family": "Apocynaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Sitta oenochlamys (Sharpe, 1877)",
+    "family": "Sittidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Collocalia isonota Oberholser, 1906",
+    "family": "Apodidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Ninox spilocephala Tweeddale, 1879",
+    "family": "Strigidae",
+    "group": "Fauna",
+    "iucnStatus": "NT"
+  },
+  {
+    "scientificName": "Passer montanus (Linnaeus, 1758)",
+    "family": "Passeridae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Ptilinopus leclancheri (Bonaparte, 1855)",
+    "family": "Columbidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Botaurus Stephens, 1819",
+    "family": "Ardeidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Copsychus mindanensis (Boddaert, 1783)",
+    "family": "Muscicapidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Egretta sacra (Gmelin, 1789)",
+    "family": "Ardeidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Motacilla cinerea Tunstall, 1771",
+    "family": "Motacillidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "BOLD:AAJ8182",
+    "family": "Ariommatidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "BOLD:AAC7623",
+    "family": "Lutjanidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Chelidoperca Boulenger, 1895",
+    "family": "Serranidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Halcyon gularis (Kuhl, 1820)",
+    "family": "Alcedinidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Columba livia J.F.Gmelin, 1789",
+    "family": "Columbidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Gallirallus torquatus (Linnaeus, 1766)",
+    "family": "Rallidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "BOLD:AAJ2540",
+    "family": "Lethrinidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "BOLD:AAB5804",
+    "family": "Balistidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Madrasostes Paulian, 1975",
+    "family": "Hybosoridae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "BOLD:AAE9521",
+    "family": "Scaridae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "BOLD:ACF1742",
+    "family": "Priacanthidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Monticola solitarius (Linnaeus, 1758)",
+    "family": "Muscicapidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Dendrocygna arcuata (Horsfield, 1824)",
+    "family": "Anatidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Merops philippinus Linnaeus, 1767",
+    "family": "Meropidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Ducula aenea (Linnaeus, 1766)",
+    "family": "Columbidae",
+    "group": "Fauna",
+    "iucnStatus": "NT"
+  },
+  {
+    "scientificName": "Selaginella aristata Spring",
+    "family": "Selaginellaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Auricularia mesenterica (Dicks.) Pers.",
+    "family": "Auriculariaceae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Megalurus timoriensis Wallace, 1864",
+    "family": "Locustellidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Englerula sydowii (Petr.) Arx",
+    "family": "Englerulaceae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Haliaeetus leucogaster (Gmelin, 1788)",
+    "family": "Accipitridae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Cyanthillium cinereum (L.) H.Rob.",
+    "family": "Asteraceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Chloropsis flavipennis (Tweeddale, 1878)",
+    "family": "Chloropseidae",
+    "group": "Fauna",
+    "iucnStatus": "VU"
+  },
+  {
+    "scientificName": "Vexillum millecostatum (Broderip, 1836)",
+    "family": "Costellariidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Pachya cepoides (I.Lea, 1840)",
+    "family": "Camaenidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Leptopoma maculatum (I.Lea, 1838)",
+    "family": "Cyclophoridae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Aviceda jerdoni (Blyth, 1842)",
+    "family": "Accipitridae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Chrysococcyx minutillus Gould, 1859",
+    "family": "Cuculidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Spathoglottis plicata Blume",
+    "family": "Orchidaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Crinum asiaticum L.",
+    "family": "Amaryllidaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Piper macropiper Pennant",
+    "family": "Piperaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Artabotrys suaveolens (Blume) Blume",
+    "family": "Annonaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Heteropoda venatoria (Linnaeus, 1767)",
+    "family": "Sparassidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "BOLD:AAC6698",
+    "family": "Nomeidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Hypsipetes everetti (Tweeddale, 1877)",
+    "family": "Pycnonotidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "BOLD:AAC2755",
+    "family": "Balistidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Hirundo rustica Linnaeus, 1758",
+    "family": "Hirundinidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Agathia Guenée",
+    "family": "Geometridae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "BOLD:AAB4185",
+    "family": "Labridae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "BOLD:ACT0048",
+    "family": "Labridae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Tetraponera Smith, 1852",
+    "family": "Formicidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "BOLD:AAC1878",
+    "family": "Lobotidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Pterospermum Schreb.",
+    "family": "Malvaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "BOLD:AAI5462",
+    "family": "Labridae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Motacilla tschutschensis Gmelin, 1789",
+    "family": "Motacillidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Orthotomus frontalis Sharpe, 1877",
+    "family": "Cisticolidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Costus woodsonii Maas",
+    "family": "Costaceae",
+    "group": "Flora",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Dipodium fevrellii J.J.Sm.",
+    "family": "Orchidaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Otosaurus cumingii Gray, 1845",
+    "family": "Scincidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Dicrurus striatus Tweeddale, 1877",
+    "family": "Dicruridae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "BOLD:AAX9247",
+    "family": "Serranidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Calyptrochaeta microblasta (Broth.) B.C.Tan & H.Rob.",
+    "family": "Daltoniaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "BOLD:AAB5459",
+    "family": "Lutjanidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "BOLD:AAC0922",
+    "family": "Carangidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Krisna Kirkaldy, 1900",
+    "family": "Cicadellidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "BOLD:AAE9975",
+    "family": "Emmelichthyidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Psyllidae",
+    "family": "Psyllidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Andes Stål, 1866",
+    "family": "Cixiidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Lepidoptera",
+    "family": "",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Chordata",
+    "family": "",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Megalurus palustris Horsfield, 1821",
+    "family": "Locustellidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Tylorida striata (Thorell, 1877)",
+    "family": "Tetragnathidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Drepanosticta flavomaculata van Tol, 2005",
+    "family": "Platystictidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Apis dorsata Fabricius, 1793",
+    "family": "Apidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Cocos nucifera L.",
+    "family": "Arecaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Calotropis gigantea (L.) W.T.Aiton",
+    "family": "Apocynaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Asplenium longissimum Blume",
+    "family": "Aspleniaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Calymperes serratum A.Braun ex Müll.Hal.",
+    "family": "Calymperaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Tridax procumbens L.",
+    "family": "Asteraceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Vexillum mirabile (A.Adams, 1853)",
+    "family": "Costellariidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Aetana kiukoki Huber, 2015",
+    "family": "Pholcidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Caridina laoagensis Blanco, 1939",
+    "family": "Atyidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Caridina papuana Nobili, 1905",
+    "family": "Atyidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Calapnita mae Huber, 2017",
+    "family": "Pholcidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Caridina jeani Cai, 2010",
+    "family": "Atyidae",
+    "group": "Fauna",
+    "iucnStatus": "DD"
+  },
+  {
+    "scientificName": "Impatiens walleriana Hook.fil.",
+    "family": "Balsaminaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Coenobita brevimanus Dana, 1852",
+    "family": "Coenobitidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Oxyopes birmanicus Thorell, 1887",
+    "family": "Oxyopidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Orthetrum pruinosum (Burmeister, 1839)",
+    "family": "Libellulidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Pericrocotus divaricatus (Raffles, 1822)",
+    "family": "Campephagidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Saxicola caprata (Linnaeus, 1766)",
+    "family": "Muscicapidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Nycticorax nycticorax (Linnaeus, 1758)",
+    "family": "Ardeidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Tringa nebularia (Gunnerus, 1767)",
+    "family": "Scolopacidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Apis dorsata breviligula (Maa, 1953)",
+    "family": "Apidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Neckeromnion lepineanum (Mont.) S.Olsson, Enroth, Huttunen & D.Quandt",
+    "family": "Neckeraceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Nymphalidae",
+    "family": "Nymphalidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "BOLD:AAB0584",
+    "family": "Carangidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "BOLD:ACC0334",
+    "family": "Gempylidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "BOLD:AAD6592",
+    "family": "Scombridae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "BOLD:AAE7644",
+    "family": "Carangidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Balclutha Kirkaldy, 1900",
+    "family": "Cicadellidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Hypselostyla cincinniformis (G.B.Sowerby I, 1841)",
+    "family": "Camaenidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Panus neostrigosus Drechsler-Santos & Wartchow",
+    "family": "Panaceae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Hypericaceae",
+    "family": "Hypericaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Macromitrium Brid.",
+    "family": "Orthotrichaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Bolbopsittacus lunulatus (Scopoli, 1786)",
+    "family": "Psittacidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Cascabela thevetia (L.) Lippold",
+    "family": "Apocynaceae",
+    "group": "Flora",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Emilia sonchifolia (L.) DC. ex Wight",
+    "family": "Asteraceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Carpelimus nothus Gildenkov, 2019",
+    "family": "Staphylinidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Ixorida propinqua (Mohnike, 1873)",
+    "family": "Scarabaeidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Casuarina equisetifolia L.",
+    "family": "Casuarinaceae",
+    "group": "Flora",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Morinda citrifolia L.",
+    "family": "Rubiaceae",
+    "group": "Flora",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Actitis hypoleucos (Linnaeus, 1758)",
+    "family": "Scolopacidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Dendrobium crumenatum Sw.",
+    "family": "Orchidaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Enhalus acoroides (L.f.) Royle",
+    "family": "Hydrocharitaceae",
+    "group": "Flora",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Lygodium circinnatum (Burm.fil.) Sw.",
+    "family": "Lygodiaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Menemerus bivittatus (Dufour, 1831)",
+    "family": "Salticidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Ipomoea pes-caprae (L.) R.Br.",
+    "family": "Convolvulaceae",
+    "group": "Flora",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Grapsus tenuicrustatus (Herbst, 1783)",
+    "family": "Grapsidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Xylocopa dejeanii Lepeletier, 1841",
+    "family": "Apidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Syrrhopodon aristifolius Mitt.",
+    "family": "Calymperaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Rhabdornis mystacalis (Temminck, 1825)",
+    "family": "Sturnidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Pernis ptilorhynchus (Temminck, 1821)",
+    "family": "Accipitridae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Scaevola taccada (Gaertn.) Roxb.",
+    "family": "Goodeniaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Pyrrosia lanceolata (L.) Farw.",
+    "family": "Polypodiaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Falco peregrinus Tunstall, 1771",
+    "family": "Falconidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Vitex rotundifolia L.f.",
+    "family": "Lamiaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Calophyllum inophyllum L.",
+    "family": "Calophyllaceae",
+    "group": "Flora",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Catharanthus roseus (L.) G.Don",
+    "family": "Apocynaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Orthetrum testaceum (Burmeister, 1839)",
+    "family": "Libellulidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Pila ampullacea (Linnaeus, 1758)",
+    "family": "Ampullariidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Trichostomum brachydontium Bruch",
+    "family": "Pottiaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Turnera ulmifolia L.",
+    "family": "Turneraceae",
+    "group": "Flora",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Pandion haliaetus (Linnaeus, 1758)",
+    "family": "Pandionidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Vestalis melania Selys, 1873",
+    "family": "Calopterygidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Butorides striata (Linnaeus, 1758)",
+    "family": "Ardeidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Premna serratifolia L.",
+    "family": "Lamiaceae",
+    "group": "Flora",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Potamarcha congener (Rambur, 1842)",
+    "family": "Libellulidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Calidris ruficollis (Pallas, 1776)",
+    "family": "Scolopacidae",
+    "group": "Fauna",
+    "iucnStatus": "NT"
+  },
+  {
+    "scientificName": "Orthetrum serapia Watson, 1984",
+    "family": "Libellulidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Treron vernans (Linnaeus, 1771)",
+    "family": "Columbidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Tringa brevipes (Vieillot, 1816)",
+    "family": "Scolopacidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Pongamia pinnata (L.) Pierre",
+    "family": "Fabaceae",
+    "group": "Flora",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Ninox randi Deignan, 1951",
+    "family": "Strigidae",
+    "group": "Fauna",
+    "iucnStatus": "NT"
+  },
+  {
+    "scientificName": "BOLD:AAB1339",
+    "family": "Balistidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Bulimus Bruguière, 1789",
+    "family": "Bulimulidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Ficus benjamina L.",
+    "family": "Moraceae",
+    "group": "Flora",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Pitta sordida (Statius Muller, 1776)",
+    "family": "Pittidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Oriolus steerii Sharpe, 1877",
+    "family": "Oriolidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "BOLD:AAB4096",
+    "family": "Lutjanidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Mucronalia A.Adams, 1860",
+    "family": "Eulimidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Kaloula pulchra Gray, 1831",
+    "family": "Microhylidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Thomisus Walckenaer, 1805",
+    "family": "Thomisidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Mimosa pudica L.",
+    "family": "Fabaceae",
+    "group": "Flora",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Lanius schach Linnaeus, 1758",
+    "family": "Laniidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Himantocladium plumula (Nees) M.Fleisch.",
+    "family": "Neckeraceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Mallotus repandus (Rottler) Müll.Arg.",
+    "family": "Euphorbiaceae",
+    "group": "Flora",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Taiwanobryum mucronatum (Bosch & Sande Lac.) S.Olsson, Enroth & D.Quandt",
+    "family": "Neckeraceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Cyperus laxus Lam.",
+    "family": "Cyperaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Mallotus mollissimus (Geiseler) Airy Shaw",
+    "family": "Euphorbiaceae",
+    "group": "Flora",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Scutellaria javanica var. sumatrana (Miq.) Bock",
+    "family": "Lamiaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Nauclea orientalis (L.) L.",
+    "family": "Rubiaceae",
+    "group": "Flora",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Suregada glomerulata (Blume) Baill.",
+    "family": "Euphorbiaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Fordia Hemsl.",
+    "family": "Fabaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Decaspermum parviflorum (Lam.) A.J.Scott",
+    "family": "Myrtaceae",
+    "group": "Flora",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Neckeropsis cyclophylla (Müll.Hal.) S.Olsson, Enroth & D.Quandt",
+    "family": "Neckeraceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Arthrocormus schimperi (Dozy & Molk.) Dozy & Molk.",
+    "family": "Calymperaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Oreocnide rubescens (Blume) Miq.",
+    "family": "Urticaceae",
+    "group": "Flora",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Artabotrys R.Br.",
+    "family": "Annonaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Ixora bartlingii Elmer",
+    "family": "Rubiaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Philonotis Brid.",
+    "family": "Bartramiaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Fimbristylis dichotoma (L.) Vahl",
+    "family": "Cyperaceae",
+    "group": "Flora",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Macaranga tanarius (L.) Müll.Arg.",
+    "family": "Euphorbiaceae",
+    "group": "Flora",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Lepidagathis inaequalis C.B.Clarke ex Elmer",
+    "family": "Acanthaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Claopodium assurgens (Sull. & Lesq.) Cardot",
+    "family": "Brachytheciaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Homaliodendron pinnatelloides Herzog",
+    "family": "Neckeraceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Garovaglia elegans (Dozy & Molk.) Hampe ex Bosch & Sande Lac.",
+    "family": "Ptychomniaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Mallotus floribundus (Blume) Müll.Arg.",
+    "family": "Euphorbiaceae",
+    "group": "Flora",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Tabernaemontana pandacaqui Lam.",
+    "family": "Apocynaceae",
+    "group": "Flora",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Horsfieldia costulata (Miq.) Warb.",
+    "family": "Myristicaceae",
+    "group": "Flora",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Maasia glauca (Hassk.) Mols, Keßler & Rogstad",
+    "family": "Annonaceae",
+    "group": "Flora",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Piper philippinum Miq.",
+    "family": "Piperaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Gnetum latifolium Blume",
+    "family": "Gnetaceae",
+    "group": "Flora",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Phalaenopsis mariae Burb. ex R.Warner & H.Williams",
+    "family": "Orchidaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Piper L.",
+    "family": "Piperaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Sohmaea zonata (Miq.) H.Ohashi & K.Ohashi",
+    "family": "Fabaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Lunasia amara var. amara",
+    "family": "Rutaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Ficus caulocarpa (Miq.) Miq.",
+    "family": "Moraceae",
+    "group": "Flora",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Aglaia lancilimba Merr.",
+    "family": "Meliaceae",
+    "group": "Flora",
+    "iucnStatus": "NT"
+  },
+  {
+    "scientificName": "Buchanania arborescens (Blume) Blume",
+    "family": "Anacardiaceae",
+    "group": "Flora",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Leptaspis banksii R.Br.",
+    "family": "Poaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Adenanthera intermedia Merr.",
+    "family": "Fabaceae",
+    "group": "Flora",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Ficus cumingii Miq.",
+    "family": "Moraceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Pittosporum pentandrum (Blanco) Merr.",
+    "family": "Pittosporaceae",
+    "group": "Flora",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Glochidion dolichostylum Merr.",
+    "family": "Phyllanthaceae",
+    "group": "Flora",
+    "iucnStatus": "EN"
+  },
+  {
+    "scientificName": "Glycosmis Corrêa",
+    "family": "Rutaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Pinnatella kuehliana (Bosch & Sande Lac.) M.Fleisch.",
+    "family": "Neckeraceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Canarium asperum Benth.",
+    "family": "Burseraceae",
+    "group": "Flora",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Ampelocissus ochracea (Teijsm. & Binn.) Merr.",
+    "family": "Vitaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Drypetes sibuyanensis (Elmer) Pax & K.Hoffm.",
+    "family": "Putranjivaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Geopelia striata (Linnaeus, 1766)",
+    "family": "Columbidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Drynaria quercifolia (L.) J.Sm.",
+    "family": "Polypodiaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Tetheamyrma bidentata Genera & Buenavente, 2018",
+    "family": "Formicidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Avicennia marina (Forssk.) Vierh.",
+    "family": "Acanthaceae",
+    "group": "Flora",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Sphagneticola trilobata (L.) Pruski",
+    "family": "Asteraceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Asystasia intrusa (Forssk.) Blume",
+    "family": "Acanthaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "BOLD:AAA8635",
+    "family": "Acanthuridae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Tachyspiza Kaup, 1844",
+    "family": "",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Aethopyga bella Tweeddale, 1877",
+    "family": "Nectariniidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Prothyma Hope, 1838",
+    "family": "Carabidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "BOLD:AAH7713",
+    "family": "Belonidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Camaenidae",
+    "family": "Camaenidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "BOLD:AAF2319",
+    "family": "Scaridae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Murdannia Royle",
+    "family": "Commelinaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Pollia Thunb.",
+    "family": "Commelinaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "BOLD:AEH7012",
+    "family": "Nemipteridae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "BOLD:AAV8414",
+    "family": "Symphysanodontidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "BOLD:AAE1869",
+    "family": "Serranidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "BOLD:ADT2166",
+    "family": "Labridae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "BOLD:AAD6266",
+    "family": "Mullidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "BOLD:AAD0850",
+    "family": "Scaridae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Acroporium Mitt.",
+    "family": "Sematophyllaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Coenobita violascens Heller, 1862",
+    "family": "Coenobitidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Crepidomanes christii (Copel.) Copel.",
+    "family": "Hymenophyllaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Styphelia malayana (Jack) Spreng., 1827",
+    "family": "Ericaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Phyllergates heterolaemus Mearns, 1905",
+    "family": "Cettiidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Phyllanthus L.",
+    "family": "Phyllanthaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Stenomeris borneensis Oliv.",
+    "family": "Dioscoreaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Syrrhopodon trachyphyllus Mont.",
+    "family": "Calymperaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Calymperes lonchophyllum Schwägr.",
+    "family": "Calymperaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Phaleria perrottetiana (Decne.) Fern.-Vill.",
+    "family": "Thymelaeaceae",
+    "group": "Flora",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Gnetum gnemon L.",
+    "family": "Gnetaceae",
+    "group": "Flora",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Dacrymyces spathularius (Schwein.) Alvarenga",
+    "family": "Dacrymycetaceae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Rhinella marina (Linnaeus, 1758)",
+    "family": "Bufonidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Georissa rufescens Möllendorff, 1887",
+    "family": "Hydrocenidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Chloraea paradoxa (L.Pfeiffer, 1844)",
+    "family": "Camaenidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Cacomantis variolosus sepulcralis (S.Muller, 1843)",
+    "family": "Cuculidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Synoicus chinensis (Linnaeus, 1766)",
+    "family": "Phasianidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Tamarindus indica L.",
+    "family": "Fabaceae",
+    "group": "Flora",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Amaurornis olivacea (Meyen, 1834)",
+    "family": "Rallidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Lophospiza Kaup, 1844",
+    "family": "",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "BOLD:AAF7731",
+    "family": "Lutjanidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "BOLD:ACK7947",
+    "family": "Scaridae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Vigna luteola (Jacq.) Benth.",
+    "family": "Fabaceae",
+    "group": "Flora",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Apis cerana Fabricius, 1793",
+    "family": "Apidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Euphaea amphicyana Ris, 1930",
+    "family": "Euphaeidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Ducula carola (Bonaparte, 1854)",
+    "family": "Columbidae",
+    "group": "Fauna",
+    "iucnStatus": "VU"
+  },
+  {
+    "scientificName": "Egretta eulophotes (Swinhoe, 1860)",
+    "family": "Ardeidae",
+    "group": "Fauna",
+    "iucnStatus": "VU"
+  },
+  {
+    "scientificName": "Ruellia tuberosa L.",
+    "family": "Acanthaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "BOLD:AAI3520",
+    "family": "Serranidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "BOLD:AAI6821",
+    "family": "Lutjanidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Actephila Blume",
+    "family": "Phyllanthaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Pholadidae",
+    "family": "Pholadidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Arctiidae",
+    "family": "Arctiidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Symphysanodontidae",
+    "family": "Symphysanodontidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Cissus repens Lam.",
+    "family": "Vitaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Sphaerostephanos J.Sm.",
+    "family": "Thelypteridaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Ocimum tenuiflorum L.",
+    "family": "Lamiaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Embelia philippinensis A.DC.",
+    "family": "Primulaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Apluda mutica L.",
+    "family": "Poaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Rauvolfia sumatrana Jack",
+    "family": "Apocynaceae",
+    "group": "Flora",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Neonauclea formicaria (Elmer) Merr.",
+    "family": "Rubiaceae",
+    "group": "Flora",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Erythroxylum cuneatum (Miq.) Kurz",
+    "family": "Erythroxylaceae",
+    "group": "Flora",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Trigastrotheca pentaphylla (L.) Thulin",
+    "family": "Molluginaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Merremia hirta (L.) Merr.",
+    "family": "Convolvulaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Angelesia splendens Korth.",
+    "family": "Chrysobalanaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Uvaria rufa (Dunal) Blume",
+    "family": "Annonaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Limnophila R.Br.",
+    "family": "Plantaginaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Cratoxylum sumatranum (Jack) Blume",
+    "family": "Hypericaceae",
+    "group": "Flora",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Ardisia marginata Blume",
+    "family": "Primulaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Strobilanthes reptans (G.Forst.) Moylan ex Y.F.Deng & J.R.I.Wood",
+    "family": "Acanthaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Stomopneustes variolaris (Lamarck, 1816)",
+    "family": "Stomopneustidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Spathoglottis gracilis Rolfe ex Hook.f.",
+    "family": "Orchidaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Hamataliwa incompta (Thorell, 1895)",
+    "family": "Oxyopidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Trachinotus baillonii (Lacepède, 1801)",
+    "family": "Carangidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "BOLD:ADK2172",
+    "family": "Hybosoridae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "BOLD:AAC3268",
+    "family": "Lethrinidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "BOLD:AAU4592",
+    "family": "Nemipteridae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "BOLD:AAB3085",
+    "family": "Labridae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Rhabdotorrhinus leucocephalus (Vieillot, 1816)",
+    "family": "Bucerotidae",
+    "group": "Fauna",
+    "iucnStatus": "NT"
+  },
+  {
+    "scientificName": "Nycticorax caledonicus (Gmelin, 1789)",
+    "family": "Ardeidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Lyncornis macrotis (Vigors, 1831)",
+    "family": "Caprimulgidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Sarcophanops steerii (Sharpe, 1876)",
+    "family": "Eurylaimidae",
+    "group": "Fauna",
+    "iucnStatus": "VU"
+  },
+  {
+    "scientificName": "Chlidonias hybrida (Pallas, 1811)",
+    "family": "Laridae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Linckia laevigata (Linnaeus, 1758)",
+    "family": "Ophidiasteridae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Lissachatina fulica (Bowdich, 1822)",
+    "family": "Achatinidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Holothuria leucospilota (Brandt, 1835)",
+    "family": "Holothuriidae",
+    "group": "Fauna",
+    "iucnStatus": "DD"
+  },
+  {
+    "scientificName": "Choriaster granulatus Lütken, 1869",
+    "family": "Oreasteridae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Wollastonia biflora (L.) DC.",
+    "family": "Asteraceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Porzana cinerea (Vieillot, 1819)",
+    "family": "Rallidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Asplenium laserpitiifolium Lam.",
+    "family": "Aspleniaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Epipremnum pinnatum (L.) Engl.",
+    "family": "Araceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Agrionoptera insignis (Rambur, 1842)",
+    "family": "Libellulidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Solanum diphyllum L.",
+    "family": "Solanaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Murina Gray, 1842",
+    "family": "Vespertilionidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Alcedo atthis (Linnaeus, 1758)",
+    "family": "Alcedinidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Otus mirus Ripley & Rabor, 1968",
+    "family": "Strigidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Poikilospermum suaveolens (Blume) Merr.",
+    "family": "Urticaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Ficus chrysolepis subsp. chrysolepis",
+    "family": "Moraceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Lindsaea obtusa J.Sm.",
+    "family": "Lindsaeaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Syrrhopodon involutus Schwägr.",
+    "family": "Calymperaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Flacourtia rukam Zoll. & Moritzi",
+    "family": "Salicaceae",
+    "group": "Flora",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Breynia J.R.Forst. & G.Forst.",
+    "family": "Phyllanthaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Centotheca lappacea (L.) Desv.",
+    "family": "Poaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Rhynchospora rubra (Lour.) Makino",
+    "family": "Cyperaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Actephila excelsa (Dalzell) Müll.Arg.",
+    "family": "Phyllanthaceae",
+    "group": "Flora",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Fimbristylis tristachya R.Br.",
+    "family": "Cyperaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Pleurozia gigantea (F.Weber) Lindb.",
+    "family": "Pleuroziaceae",
+    "group": "Flora",
+    "iucnStatus": "EN"
+  },
+  {
+    "scientificName": "Acromastigum bancanum (Sande Lac.) A.Evans",
+    "family": "Lepidoziaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Cyperus cyperinus (Retz.) Valck.Sur.",
+    "family": "Cyperaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Dianella ensifolia (L.) Redouté",
+    "family": "Asphodelaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Garovaglia setigera (Sull.) Mitt.",
+    "family": "Ptychomniaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Hedyotis microphylla Merr.",
+    "family": "Rubiaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Rotala mexicana Cham. & Schltdl.",
+    "family": "Lythraceae",
+    "group": "Flora",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Asplenium affine Sw.",
+    "family": "Aspleniaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Cyrtococcum patens (L.) A.Camus",
+    "family": "Poaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Plocoglottis Blume",
+    "family": "Orchidaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Thysananthus convolutus Lindenb.",
+    "family": "Lejeuneaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Spermacoce articularis L.f.",
+    "family": "Rubiaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Schlotheimia wallisii Müll.Hal.",
+    "family": "Orthotrichaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Homalanthus populneus (Geiseler) Pax",
+    "family": "Euphorbiaceae",
+    "group": "Flora",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Alpinia orientalis Docot & Banag",
+    "family": "Zingiberaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Heteroscyphus diestianus (Sande Lac.) Piippo",
+    "family": "Lophocoleaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Distichophyllum shevockii B.C.Tan, Ochyra, B.C.Ho & Bedn.-Ochyra",
+    "family": "Daltoniaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Prosaptia obliquata (Blume) Mett.",
+    "family": "Polypodiaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Pteropus vampyrus (Linnaeus, 1758)",
+    "family": "Pteropodidae",
+    "group": "Fauna",
+    "iucnStatus": "DD"
+  },
+  {
+    "scientificName": "Strophocaulon unitum (L.) S.E.Fawc. & A.R.Sm.",
+    "family": "Thelypteridaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Heptapleurum ellipticum (Blume) Seem.",
+    "family": "Araliaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Lepicolea rara (Steph.) Grolle",
+    "family": "Lepicoleaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Tectaria griffithii (Baker) C.Chr.",
+    "family": "Tectariaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Bazzania erosa (Reinw., Blume & Nees) Trevis.",
+    "family": "Lepidoziaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "BOLD:AAB8144",
+    "family": "Labridae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Euphorbia hirta L.",
+    "family": "Euphorbiaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Lenzites repandus Fr., 1838",
+    "family": "Polyporaceae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Excoecaria agallocha L.",
+    "family": "Euphorbiaceae",
+    "group": "Flora",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Liopropoma Gill, 1861",
+    "family": "Serranidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Prioniturus discurus (Vieillot, 1822)",
+    "family": "Psittacidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Lonchura oryzivora (Linnaeus, 1758)",
+    "family": "Estrildidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "BOLD:AAJ2671",
+    "family": "Lutjanidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "BOLD:ADL4308",
+    "family": "Nemipteridae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "BOLD:AAC7352",
+    "family": "Lethrinidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "BOLD:AAC8839",
+    "family": "Lutjanidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Plantae",
+    "family": "",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Guilandina bonduc L.",
+    "family": "Fabaceae",
+    "group": "Flora",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "BOLD:ADB4901",
+    "family": "Priacanthidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Dendroligotrichum dendroides (Brid. ex Hedw.) Broth.",
+    "family": "Polytrichaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Lindsaea hamiguitanensis Karger & V.B.Amoroso",
+    "family": "Lindsaeaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "BOLD:AAB3276",
+    "family": "Lutjanidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "BOLD:AAC7530",
+    "family": "Labridae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "BOLD:AAF8867",
+    "family": "Malacanthidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Ophiocoma scolopendrina (Lamarck, 1816)",
+    "family": "Ophiocomidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Thalassia hemprichii (Ehrenb. ex Solms) Asch.",
+    "family": "Hydrocharitaceae",
+    "group": "Flora",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "BOLD:AAB2489",
+    "family": "Leiognathidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "BOLD:AAC6423",
+    "family": "Acanthuridae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Calostoma lutescens (Schwein.) Burnap, 1897",
+    "family": "Calostomataceae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Aecidium prolixum Syd. & P.Syd.",
+    "family": "Pucciniaceae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Gasteracantha clavigera Giebel, 1863",
+    "family": "Araneidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Thespesia populnea (L.) Sol. ex Corrêa",
+    "family": "Malvaceae",
+    "group": "Flora",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Emilia javanica (Burm.fil.) C.B.Rob.",
+    "family": "Asteraceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Anthreptes malacensis (Scopoli, 1786)",
+    "family": "Nectariniidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Aglaonema densinervium Engl.",
+    "family": "Araceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Jatropha gossypiifolia L.",
+    "family": "Euphorbiaceae",
+    "group": "Flora",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Idris badius Johnson & Chen, 2018",
+    "family": "Scelionidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Paspalum scrobiculatum var. bispicatum Hack.",
+    "family": "Poaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Chloranthus elatior Link",
+    "family": "Chloranthaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Medinilla Gaudich.",
+    "family": "Melastomataceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Chloraea hanleyi (L.Pfeiffer, 1845)",
+    "family": "Camaenidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Rhinolophus virgo K.Andersen, 1905",
+    "family": "Rhinolophidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Piper betle L.",
+    "family": "Piperaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Scleria lithosperma (L.) Sw.",
+    "family": "Cyperaceae",
+    "group": "Flora",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Glochidion mindorense C.B.Rob.",
+    "family": "Phyllanthaceae",
+    "group": "Flora",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Setaria parviflora (Poir.) Kerguélen",
+    "family": "Poaceae",
+    "group": "Flora",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Ixora philippinensis Merr.",
+    "family": "Rubiaceae",
+    "group": "Flora",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Hypselostyla carneola (Grateloup, 1840)",
+    "family": "Camaenidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Pyrrosia nummulariifolia (Sw.) Ching",
+    "family": "Polypodiaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Utania racemosa (Jack) Sugumaran",
+    "family": "Gentianaceae",
+    "group": "Flora",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Isachne minutula (Gaudich.) Kunth",
+    "family": "Poaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Ehretia microphylla Lam.",
+    "family": "Ehretiaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Callicarpa L.",
+    "family": "Lamiaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Rotala rosea (Poir.) C.D.K.Cook",
+    "family": "Lythraceae",
+    "group": "Flora",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Poltys illepidus C.L.Koch, 1843",
+    "family": "Araneidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Tagalina semperi Dohrn, 1862",
+    "family": "Pygidicranidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Sterrhoptilus capitalis (Tweeddale, 1877)",
+    "family": "Zosteropidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Callicladium imponens (Hedw.) Hedenäs, Schlesak & D.Quandt",
+    "family": "Callicladiaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Alocasia zebrina Veitch ex J.Dix",
+    "family": "Araceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Hemiplecta Albers, 1850",
+    "family": "Ariophantidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Prodasineura integra (Selys, 1882)",
+    "family": "Platycnemididae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Dendrobium stella-silvae (Loher & Kraenzl.) Ames",
+    "family": "Orchidaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Peristernia castanoleuca Tapparone Canefri, 1879",
+    "family": "Fasciolariidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Merops americanus P.L.S.Müller, 1776",
+    "family": "Meropidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Brachypteryx poliogyna Ogilvie-Grant, 1895",
+    "family": "Muscicapidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Liparis viridiflora (Blume) Lindl.",
+    "family": "Orchidaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Appendicula clemensiae (Ames) Ames",
+    "family": "Orchidaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Phreatia aristulifera Ames",
+    "family": "Orchidaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "BOLD:AAE7640",
+    "family": "Carangidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "BOLD:AAF2306",
+    "family": "Nemipteridae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "BOLD:ACX6470",
+    "family": "Platystictidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Synapta maculata (Chamisso & Eysenhardt, 1821)",
+    "family": "Synaptidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "BOLD:AAI7885",
+    "family": "Carangidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "BOLD:AAC1383",
+    "family": "Pomacentridae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Pandanobasis cantuga (Needham & Gyger, 1939)",
+    "family": "Coenagrionidae",
+    "group": "Fauna",
+    "iucnStatus": "VU"
+  },
+  {
+    "scientificName": "Justicia brandegeeana Wassh. & L.B.Sm.",
+    "family": "Acanthaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Pseudagrion pilidorsum (Brauer, 1868)",
+    "family": "Coenagrionidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Coenobita rugosus H.Milne-Edwards, 1837",
+    "family": "Coenobitidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Dolichoderus thoracicus (Smith, 1860)",
+    "family": "Formicidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Scytodes pallida Doleschall, 1859",
+    "family": "Scytodidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Melo aethiopicus (Linnaeus, 1758)",
+    "family": "Volutidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Coenobita cavipes Stimpson, 1858",
+    "family": "Coenobitidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Macromidia samal Needham & Gyger, 1937",
+    "family": "Corduliidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Plumeria pudica Jacq.",
+    "family": "Apocynaceae",
+    "group": "Flora",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Muntingia calabura L.",
+    "family": "Muntingiaceae",
+    "group": "Flora",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Conus eburneus Hwass, 1792",
+    "family": "Conidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Ctenopterella blechnoides (Grev.) Parris",
+    "family": "Polypodiaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Colilodion colongi Hlaváč, Vondráček & Mohagan, 2018",
+    "family": "Staphylinidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Georissa W.T.Blanford, 1864",
+    "family": "Hydrocenidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Risiocnemis erythrura (Brauer, 1868)",
+    "family": "Platycnemididae",
+    "group": "Fauna",
+    "iucnStatus": "NT"
+  },
+  {
+    "scientificName": "Oreogrammitis fenicis (Copel.) Parris",
+    "family": "Polypodiaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Heliofungia actiniformis (Quoy & Gaimard, 1833)",
+    "family": "Fungiidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Archaster typicus Müller & Troschel, 1840",
+    "family": "Archasteridae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Amaurornis phoenicurus (Pennant, 1769)",
+    "family": "Rallidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Blattidae",
+    "family": "Blattidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Chromolaena odorata (L.) R.M.King & H.Rob.",
+    "family": "Asteraceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Culcita novaeguineae Müller & Troschel, 1842",
+    "family": "Oreasteridae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "BOLD:AAB5388",
+    "family": "Lutjanidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Rhipicephalus sanguineus Latreille, 1806",
+    "family": "Ixodidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Echinometra mathaei (Blainville, 1825)",
+    "family": "Echinometridae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Scyphiphora hydrophylacea C.F.Gaertn.",
+    "family": "Rubiaceae",
+    "group": "Flora",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "BOLD:AAB7827",
+    "family": "Carangidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Helicostyla persimilis (Deshayes, 1850)",
+    "family": "Camaenidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Spheciospongia inconstans (Dendy, 1887)",
+    "family": "Clionaidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Monomorium destructor (Jerdon, 1851)",
+    "family": "Formicidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Azadirachta indica A.Juss.",
+    "family": "Meliaceae",
+    "group": "Flora",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Selaginella apoensis Hieron.",
+    "family": "Selaginellaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Parvioris fulvescens (A.Adams, 1854)",
+    "family": "Eulimidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Pandanus odorifer (Forssk.) Kuntze",
+    "family": "Pandanaceae",
+    "group": "Flora",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Taenitis blechnoides (Willd.) Sw.",
+    "family": "Pteridaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Planchonella macrantha (Merr.) Swenson",
+    "family": "Sapotaceae",
+    "group": "Flora",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Myrsine glandulosa (Elmer) Pipoly",
+    "family": "Primulaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Macroglossus minimus lagochilus Matschie, 1899",
+    "family": "Pteropodidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Lepisorus mucronatus (Fée) Li Wang",
+    "family": "Polypodiaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Lecanopteris deparioides (Ces.) Baker",
+    "family": "Polypodiaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Oreogrammitis jagoriana (Mett.) Parris & Sundue",
+    "family": "Polypodiaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Polyscias aherniana (Merr.) Lowry & G.M.Plunkett",
+    "family": "Araliaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Davallia solida (G.Forst.) Sw.",
+    "family": "Davalliaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Falcatifolium gruezoi de Laub.",
+    "family": "Podocarpaceae",
+    "group": "Flora",
+    "iucnStatus": "NT"
+  },
+  {
+    "scientificName": "Pipistrellus Kaup, 1829",
+    "family": "Vespertilionidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Ptisana sylvatica (Blume) Murdock",
+    "family": "Marattiaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Microschizaea malaccana (Baker) C.F.Reed",
+    "family": "Schizaeaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Clethra canescens Reinw. ex Blume",
+    "family": "Clethraceae",
+    "group": "Flora",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Microsorum scolopendria (Burm.fil.) Copel.",
+    "family": "Polypodiaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Antrophyum sessilifolium (Cav.) Spreng.",
+    "family": "Pteridaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Barringtonia J.R.Forst. & G.Forst.",
+    "family": "Lecythidaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Ternstroemia gymnanthera (Wight & Arn.) Sprague",
+    "family": "Pentaphylacaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Myrsine amorosoana Pipoly",
+    "family": "Primulaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Oleandra neriiformis Cav.",
+    "family": "Oleandraceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Harpiocephalus harpia (Temminck, 1840)",
+    "family": "Vespertilionidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Kerivoula pellucida (Waterhouse, 1845)",
+    "family": "Vespertilionidae",
+    "group": "Fauna",
+    "iucnStatus": "NT"
+  },
+  {
+    "scientificName": "Euonymus euonymoides (Merr.)",
+    "family": "Celastraceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Ophiorrhiza erubescens Wall. ex G.Don",
+    "family": "Rubiaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Harpyionycteris whiteheadi whiteheadi Thomas, 1896",
+    "family": "Pteropodidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Syngramma alismifolia (C.Presl) J.Sm.",
+    "family": "Pteridaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Hymenophyllum badium Hook. & Grev.",
+    "family": "Hymenophyllaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Polyscias borneensis Philipson",
+    "family": "Araliaceae",
+    "group": "Flora",
+    "iucnStatus": "EN"
+  },
+  {
+    "scientificName": "Elaeocarpus multiflorus (Turcz.) Fern.-Vill.",
+    "family": "Elaeocarpaceae",
+    "group": "Flora",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Pentaphragma grandiflorum Kurz",
+    "family": "Pentaphragmataceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Kerivoula whiteheadi Thomas, 1894",
+    "family": "Vespertilionidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Kerivoula Gray, 1842",
+    "family": "Vespertilionidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Haplopteris alternans (Copel.) S.Linds. & C.W.Chen",
+    "family": "Pteridaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Lindsaea pectinata Blume",
+    "family": "Lindsaeaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Prosaptia alata (Blume) Christ",
+    "family": "Polypodiaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Sus philippensis mindanensis Forsyth Major, 1897",
+    "family": "Suidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Abrodictyum extravagans (Copel.)",
+    "family": "Hymenophyllaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Elaeocarpus argenteus Merr.",
+    "family": "Elaeocarpaceae",
+    "group": "Flora",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Daphniphyllum luzonense Elmer",
+    "family": "Daphniphyllaceae",
+    "group": "Flora",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Psychotria barkleyi Sohmer & A.P.Davis",
+    "family": "Rubiaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Antrophyum parvulum Blume",
+    "family": "Pteridaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Euphorbia heterophylla var. cyathophora (Murray) Griseb.",
+    "family": "Euphorbiaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Euplica scripta (Lamarck, 1822)",
+    "family": "Columbellidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Russelia equisetiformis Schltdl. & Cham.",
+    "family": "Plantaginaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Zosterops japonicus Temminck & Schlegel, 1845",
+    "family": "Zosteropidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Odina Mabille, 1891",
+    "family": "Hesperiidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Dacrycarpus imbricatus (Blume) de Laub.",
+    "family": "Podocarpaceae",
+    "group": "Flora",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Hellenia speciosa (J.Koenig) S.R.Dutta",
+    "family": "Costaceae",
+    "group": "Flora",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Streptopelia bitorquata dusumieri (Temminck, 1823)",
+    "family": "Columbidae",
+    "group": "Fauna",
+    "iucnStatus": "VU"
+  },
+  {
+    "scientificName": "Balistapus undulatus (Park, 1797)",
+    "family": "Balistidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Tradescantia spathacea Sw.",
+    "family": "Commelinaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Kleinhovia hospita L.",
+    "family": "Malvaceae",
+    "group": "Flora",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Locustella ochotensis (Middendorff, 1853)",
+    "family": "Locustellidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Dicraspeda brunnea Chaudoir, 1863",
+    "family": "Carabidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Obba listeri (J.E.Gray, 1825)",
+    "family": "Camaenidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Nepenthes alfredoi V.B.Amoroso & Lagunday",
+    "family": "Nepenthaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Mischocyttarus flavicans (Fabricius, 1804)",
+    "family": "Vespidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Cicindela mindanaoensis (Cassola, 2000)",
+    "family": "Carabidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Teinobasis annamaijae Hämäläinen & Müller, 1989",
+    "family": "Coenagrionidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Hypodontium pomiforme (Hook.) Müll.Hal.",
+    "family": "Hypodontiaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Helicostyla turbinoides (Broderip, 1841)",
+    "family": "Camaenidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Ficus microcarpa L.fil.",
+    "family": "Moraceae",
+    "group": "Flora",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "BOLD:AAB6670",
+    "family": "Scaridae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "BOLD:AAB7901",
+    "family": "Lutjanidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "BOLD:AAC6439",
+    "family": "Lutjanidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "BOLD:AAD9665",
+    "family": "Serranidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Ectropothecium ferrugineum (Müll.Hal.) A.Jaeger",
+    "family": "Hypnaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Grammatophyllum wallisii Rchb.f.",
+    "family": "Orchidaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Conus ebraeus Linnaeus, 1758",
+    "family": "Conidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Blumea balsamifera (L.) DC.",
+    "family": "Asteraceae",
+    "group": "Flora",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Polyrhachis armata (Le Guillou, 1842)",
+    "family": "Formicidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Acridotheres cristatellus (Linnaeus, 1758)",
+    "family": "Sturnidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Polistes stigma (Fabricius, 1793)",
+    "family": "Eumenidae",
+    "group": "Fauna",
+    "iucnStatus": ""
+  },
+  {
+    "scientificName": "Pelargopsis capensis (Linnaeus, 1766)",
+    "family": "Alcedinidae",
+    "group": "Fauna",
+    "iucnStatus": "LC"
+  },
+  {
+    "scientificName": "Vigna minima (Roxb.) Ohwi & H.Ohashi",
+    "family": "Fabaceae",
+    "group": "Flora",
+    "iucnStatus": ""
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "163355017186",
+    "project_id": "bms-hamguitan",
+    "storage_bucket": "bms-hamguitan.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:163355017186:android:6cf183354b0d06c4e903bb",
+        "android_client_info": {
+          "package_name": "com.example.bms_inventory"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD595dOqjSkD_6DLOWYLh71npblWo5qcrg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
