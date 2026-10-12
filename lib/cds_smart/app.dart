@@ -8,6 +8,8 @@ class CdsSmartApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final apiOrigin = const String.fromEnvironment('CDS_API_BASE_URL');
+    final baseUrl = apiOrigin.isEmpty ? null : Uri.tryParse(apiOrigin);
     final colorScheme = ColorScheme.fromSeed(
       seedColor: const Color(0xff176b43),
       brightness: Brightness.light,
@@ -36,7 +38,7 @@ class CdsSmartApp extends StatelessWidget {
       ),
       home: const bool.fromEnvironment('CDS_DEMO_MODE')
           ? const CdsDemoHome()
-          : const CdsSmartHome(),
+          : CdsSmartHome(baseUrl: baseUrl),
     );
   }
 }

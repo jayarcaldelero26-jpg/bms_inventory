@@ -273,7 +273,14 @@ class _CdsDemoHomeState extends State<CdsDemoHome> {
       const SizedBox(height: 16),
       FilledButton.tonal(
         onPressed: () => Navigator.of(context).pushReplacement(
-          MaterialPageRoute<void>(builder: (_) => const CdsSmartHome()),
+          MaterialPageRoute<void>(
+            builder: (_) {
+              final origin = const String.fromEnvironment('CDS_API_BASE_URL');
+              return CdsSmartHome(
+                baseUrl: origin.isEmpty ? null : Uri.tryParse(origin),
+              );
+            },
+          ),
         ),
         child: const Text('Exit demo'),
       ),
