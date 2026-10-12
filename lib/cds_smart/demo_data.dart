@@ -106,6 +106,27 @@ final demoDocuments = <DemoDocument>[
       ),
     ],
   ),
+  for (var number = 4; number <= 9; number++)
+    DemoDocument(
+      id: number,
+      title: 'Sample conservation submission $number',
+      reference: 'DEMO-2026-${number.toString().padLeft(3, '0')}',
+      source: 'Conservation',
+      queue: 'incoming',
+      status: 'Awaiting office action',
+      custody: 'PENRO Sample',
+      updatedAt: DateTime.utc(2026, 10, 10),
+      events: [
+        DocumentRoutingEvent(
+          sourceType: 'conservation',
+          sourceId: number,
+          workflowKey: 'pamb-meeting',
+          eventKey: 'received',
+          toOffice: 'PENRO Sample',
+          occurredAt: DateTime.utc(2026, 10, 10),
+        ),
+      ],
+    ),
 ];
 
 List<DemoDocument> filterDemoDocuments({

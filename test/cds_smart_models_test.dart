@@ -42,8 +42,9 @@ void main() {
   });
 
   test('demo search stays within the selected queue and source', () {
-    final incoming = filterDemoDocuments(queue: 'incoming', query: 'DEMO-2026');
+    final incoming = filterDemoDocuments(queue: 'incoming', query: 'DEMO-2026-001');
     expect(incoming.map((item) => item.reference), ['DEMO-2026-001']);
+    expect(filterDemoDocuments(queue: 'incoming'), hasLength(7));
     expect(filterDemoDocuments(queue: 'incoming', source: 'BMS'), isEmpty);
     expect(filterDemoDocuments(queue: 'history', query: 'assessment').single.id, 3);
   });
