@@ -155,33 +155,73 @@ photo, map, or cloud data was accessed or cleaned.
 
 ## Setup and connection configuration
 
-Flutter/Dart, JDK, Android SDK, and a device/emulator were unavailable during
-the prior toolchain check. Install Flutter stable, JDK 17, and Android Studio
-with its Android SDK; then run:
+Android-only toolchain installed from the official Flutter, Eclipse Temurin,
+and Android command-line tool distributions:
+
+- Flutter 3.47.7 stable with Dart 3.13.5 at
+  `C:\Users\USER\dev\flutter`.
+- Eclipse Temurin JDK 17.0.20.1 at `C:\Users\USER\dev\jdk17`.
+- Android command-line tools revision 22.0 at
+  `C:\Users\USER\AppData\Local\Android\Sdk\cmdline-tools\latest`.
+- Flutter is configured to use
+  `C:\Users\USER\AppData\Local\Android\Sdk`.
+- Android Studio was not needed for the CLI setup and was not installed.
+- Android platform/build tools, NDK, emulator, and API 36 system image are
+  still pending because the configured SDK reports its licenses unaccepted.
+  No emulator or Android device is currently available to Flutter.
+
+Official setup references: [Flutter SDK archive](https://docs.flutter.dev/install/archive),
+[Flutter Android setup](https://docs.flutter.dev/platform-integration/android/setup),
+[Android command-line tools](https://developer.android.com/tools), and
+[Android Emulator setup](https://developer.android.com/studio/run/emulator).
+
+After Android SDK licenses are accepted in an interactive PowerShell, install
+the project-compatible platform and emulator packages:
+
+```powershell
+$sdk = 'C:\Users\USER\AppData\Local\Android\Sdk'
+& "$sdk\cmdline-tools\latest\bin\sdkmanager.bat" --sdk_root="$sdk" --licenses
+```
+
+Accept each displayed agreement in that interactive terminal. Then install the
+packages:
+
+```powershell
+$sdk = 'C:\Users\USER\AppData\Local\Android\Sdk'
+& "$sdk\cmdline-tools\latest\bin\sdkmanager.bat" --sdk_root="$sdk" --install `
+  'platform-tools' 'platforms;android-36' 'build-tools;36.0.0' `
+  'ndk;28.2.13676358' 'emulator' `
+  'system-images;android-36;google_apis;x86_64'
+```
+
+Then open a new terminal so the user-level `PATH`, `JAVA_HOME`, `ANDROID_HOME`,
+and `ANDROID_SDK_ROOT` settings are loaded. Run:
 
 ```powershell
 flutter doctor -v
-flutter doctor --android-licenses
 flutter pub get
-dart format lib test
-flutter analyze
-flutter test
-flutter build apk --debug
+dart format lib/cds_smart/demo_data.dart lib/cds_smart/demo_screens.dart test/cds_smart_models_test.dart test/cds_smart_demo_widget_test.dart
+flutter analyze lib/cds_smart test/cds_smart_models_test.dart test/cds_smart_demo_widget_test.dart
+flutter test test/cds_smart_models_test.dart test/cds_smart_demo_widget_test.dart
+flutter build apk --debug --dart-define=CDS_DEMO_MODE=true
 ```
 
-The current shell does not call a server. When a mobile API is implemented and
-authorized in a separate development copy, configure its origin explicitly.
-For a host Laravel development server, Android Emulator uses
-`http://10.0.2.2:<port>`; a physical device needs the development computer’s
-reachable LAN IP. `localhost` on a phone is the phone itself. Do not assume
-Windows hostnames resolve from Android. No firewall/network configuration,
-live-data connection, or server request was made.
+The demo has no server connection. When APIs are implemented and authorized in
+a separate development copy, configure the origin explicitly. For a host
+Laravel development server, Android Emulator uses `http://10.0.2.2:<port>`; a
+physical device needs the development computer’s reachable LAN IP. No
+firewall/network configuration, live-data connection, or server request was
+made.
 
-To inspect the fictional UI without a backend, run:
+Exact opt-in demo command:
 
 ```powershell
 flutter run --dart-define=CDS_DEMO_MODE=true
 ```
+
+The debug APK destination, once the Android SDK packages are installed and the
+build succeeds, is `build\app\outputs\flutter-apk\app-debug.apk`. That APK has
+not been produced yet.
 
 The `DEMO` banner and sample references identify fictional content. The
 normal `flutter run` starts the integration-pending shell. The demo has no
@@ -189,27 +229,36 @@ login, persistent session, token, account cache, attachment bytes, or network
 fallback. Its sample profile is not an authenticated user.
 
 The active workspace remains `C:\laragon\www\bms-inventory`; no folder rename
-was attempted. After closing the workspace, run this from the parent directory
-only if the destination is still absent:
-
-```powershell
-Set-Location 'C:\laragon\www'
-Rename-Item -LiteralPath '.\bms-inventory' -NewName 'cds-smart-mobile'
-```
+was attempted.
 
 ## Verification and remaining scope
 
-- Read-only Git inspection verified the fetched `origin/main` workflow,
-  routing, organizational access, notification, and web route source.
-- On 2026-10-12, `git diff --check` passed and the mobile Git root, branch,
-  origin, and web worktree status were rechecked. `where.exe` found no Flutter,
-  Dart, Java, adb, emulator, or SDK manager executable, and no Android SDK
-  environment variable was set. Source review is the only validation of the
-  new demo UI; it is not a successful runtime or build check.
-- Routing-queue/event and demo filter tests were added but not executed because Flutter
-  and Dart were unavailable. Formatting, analysis, Android build, device
-  behavior, authorization-boundary tests against mobile APIs, and actual
-  document/notification rendering remain unverified.
+- `flutter pub get` completed successfully. `dart format` completed with no
+  remaining changes across the edited CDS demo and tests.
+- Focused `flutter analyze lib/cds_smart test/cds_smart_models_test.dart
+  test/cds_smart_demo_widget_test.dart` passed with no issues.
+- The full `flutter analyze --no-pub` completed with 104 info-level findings in
+  legacy BMS files. None were in `lib/cds_smart`; the focused CDS analysis is
+  clean. The prior toolchain blocker prevented a pre-change full-analysis
+  baseline, so the earlier finding count is unknown.
+- Six focused model and widget tests pass. The widget tests exercise tracking
+  navigation, pagination, search, current custody, separate routing/review
+  history, and in-memory notification read state.
+- `flutter doctor -v` finds Flutter and Windows, but not an Android SDK
+  installation with platform packages. SDK Manager reports 8 of 8 licenses
+  unaccepted and has not created its `licenses` files. Therefore Android
+  platform/build tools, NDK, emulator, and system image were not installed.
+- No Android debug APK was compiled and no emulator/device behavior was
+  verified. Source/widget test success is not Android compilation or device
+  proof. Visual Studio is absent, as expected for this Android-only task.
+- Existing Android namespace/application ID, signing, Firebase identity/config,
+  and BMS storage were not changed. The existing
+  `android/app/google-services.json` is present and untouched.
+- No Laravel command, migration, live service, production account, or backend
+  integration was used. Real sign-in/session handling, authorized dashboard
+  counts, server-backed queues, details, attachments, notifications,
+  profile/logout, and loading/error/offline/expired API states remain pending
+  a reviewed mobile API contract.
 - The previous Laravel test results cover only the temporary API changes listed
   above, not the verified mobile integration. No backend command, migration,
   production connection, push, or deployment was performed during this
@@ -218,9 +267,10 @@ Rename-Item -LiteralPath '.\bms-inventory' -NewName 'cds-smart-mobile'
   search/filter/page results, details, attachment previews, notifications,
   profile/logout, loading/error/offline/expired states, and mobile API tests
   remain unfinished pending a reviewed server API contract. The next concrete
-  step is to implement and test the scoped API in an authorized web development
-  copy, then replace the demo boundary with a typed client and secure per-account
-  session storage.
+  step for this mobile task is to persist acceptance of the Android SDK licenses,
+  install the listed packages, build the APK, and run the opt-in demo on a fresh
+  emulator. Backend API implementation and live integration require separate
+  authorization and are outside this verification task.
 - Continue only on `feature/cds-smart-mobile-refactor`; before staging,
   committing, or pushing, verify this Git root and
   `jayarcaldelero26-jpg/bms_inventory` origin, inspect the exact staged diff

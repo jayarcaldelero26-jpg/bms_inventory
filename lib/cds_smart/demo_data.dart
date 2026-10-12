@@ -31,7 +31,11 @@ class DemoDocument {
 }
 
 class DemoNotification {
-  DemoNotification({required this.id, required this.message, this.read = false});
+  DemoNotification({
+    required this.id,
+    required this.message,
+    this.read = false,
+  });
 
   final int id;
   final String message;
@@ -135,12 +139,14 @@ List<DemoDocument> filterDemoDocuments({
   String source = 'All',
 }) {
   final normalized = query.trim().toLowerCase();
-  return demoDocuments.where((document) {
-    return document.queue == queue &&
-        (source == 'All' || document.source == source) &&
-        (normalized.isEmpty ||
-            '${document.title} ${document.reference} ${document.source}'
-                .toLowerCase()
-                .contains(normalized));
-  }).toList(growable: false);
+  return demoDocuments
+      .where((document) {
+        return document.queue == queue &&
+            (source == 'All' || document.source == source) &&
+            (normalized.isEmpty ||
+                '${document.title} ${document.reference} ${document.source}'
+                    .toLowerCase()
+                    .contains(normalized));
+      })
+      .toList(growable: false);
 }

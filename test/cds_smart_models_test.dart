@@ -18,35 +18,44 @@ void main() {
     );
   });
 
-  test('routing events carry custody offices independently of review events', () {
-    final routing = DocumentRoutingEvent.fromJson({
-      'source_type': 'conservation',
-      'source_id': 42,
-      'workflow_key': 'pamb-meeting',
-      'event_key': 'received_by_penro',
-      'from_office': 'CENRO Sample',
-      'to_office': 'PENRO Sample',
-      'occurred_at': '2026-10-10T09:30:00Z',
-      'recorded_by': 7,
-    });
-    final review = PambMovReviewEvent.fromJson({
-      'event_key': 'needs_correction',
-      'remarks': 'Update the MOV.',
-      'recorded_by': 8,
-    });
+  test(
+    'routing events carry custody offices independently of review events',
+    () {
+      final routing = DocumentRoutingEvent.fromJson({
+        'source_type': 'conservation',
+        'source_id': 42,
+        'workflow_key': 'pamb-meeting',
+        'event_key': 'received_by_penro',
+        'from_office': 'CENRO Sample',
+        'to_office': 'PENRO Sample',
+        'occurred_at': '2026-10-10T09:30:00Z',
+        'recorded_by': 7,
+      });
+      final review = PambMovReviewEvent.fromJson({
+        'event_key': 'needs_correction',
+        'remarks': 'Update the MOV.',
+        'recorded_by': 8,
+      });
 
-    expect(routing.toOffice, 'PENRO Sample');
-    expect(routing.eventKey, 'received_by_penro');
-    expect(review.eventKey, 'needs_correction');
-    expect(review.remarks, 'Update the MOV.');
-  });
+      expect(routing.toOffice, 'PENRO Sample');
+      expect(routing.eventKey, 'received_by_penro');
+      expect(review.eventKey, 'needs_correction');
+      expect(review.remarks, 'Update the MOV.');
+    },
+  );
 
   test('demo search stays within the selected queue and source', () {
-    final incoming = filterDemoDocuments(queue: 'incoming', query: 'DEMO-2026-001');
+    final incoming = filterDemoDocuments(
+      queue: 'incoming',
+      query: 'DEMO-2026-001',
+    );
     expect(incoming.map((item) => item.reference), ['DEMO-2026-001']);
     expect(filterDemoDocuments(queue: 'incoming'), hasLength(7));
     expect(filterDemoDocuments(queue: 'incoming', source: 'BMS'), isEmpty);
-    expect(filterDemoDocuments(queue: 'history', query: 'assessment').single.id, 3);
+    expect(
+      filterDemoDocuments(queue: 'history', query: 'assessment').single.id,
+      3,
+    );
   });
 
   test('a review verdict does not change the sample custody office', () {
