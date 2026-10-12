@@ -1,4 +1,5 @@
 import 'package:cds_smart_mobile/cds_smart/routing_models.dart';
+import 'package:cds_smart_mobile/cds_smart/demo_data.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {
@@ -38,5 +39,18 @@ void main() {
     expect(routing.eventKey, 'received_by_penro');
     expect(review.eventKey, 'needs_correction');
     expect(review.remarks, 'Update the MOV.');
+  });
+
+  test('demo search stays within the selected queue and source', () {
+    final incoming = filterDemoDocuments(queue: 'incoming', query: 'DEMO-2026');
+    expect(incoming.map((item) => item.reference), ['DEMO-2026-001']);
+    expect(filterDemoDocuments(queue: 'incoming', source: 'BMS'), isEmpty);
+    expect(filterDemoDocuments(queue: 'history', query: 'assessment').single.id, 3);
+  });
+
+  test('a review verdict does not change the sample custody office', () {
+    final document = demoDocuments.first;
+    expect(document.review?.eventKey, 'needs_correction');
+    expect(document.custody, document.events.last.toOffice);
   });
 }

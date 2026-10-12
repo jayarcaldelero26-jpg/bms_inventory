@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'screens.dart';
+import 'demo_screens.dart';
 
 class CdsSmartApp extends StatelessWidget {
   const CdsSmartApp({super.key});
@@ -33,7 +34,9 @@ class CdsSmartApp extends StatelessWidget {
           ),
         ),
       ),
-      home: const CdsSmartHome(),
+      home: const bool.fromEnvironment('CDS_DEMO_MODE')
+          ? const CdsDemoHome()
+          : const CdsSmartHome(),
     );
   }
 }

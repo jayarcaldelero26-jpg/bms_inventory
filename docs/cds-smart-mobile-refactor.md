@@ -3,9 +3,10 @@
 ## Status
 
 **PARTIAL — backend source verified; mobile API and runtime remain blocked.**
-The active mobile screen is an honest, API-independent shell for the verified
-Submission Tracking concepts. It does not authenticate, request, cache, or
-display CDS records. The earlier technical-report client and its assumed
+The normal mobile screen is an API-independent shell for the verified
+Submission Tracking concepts. An explicitly enabled demo screen exercises
+fictional local records and in-memory notification state. Neither mode
+authenticates, requests, caches, or displays CDS records. The earlier technical-report client and its assumed
 `/api/mobile` endpoints were removed from the active source because they were
 built against the wrong web snapshot. Do not connect that temporary API work
 to this client.
@@ -49,14 +50,14 @@ serves that commit. No authenticated application request was made.
 
 | Web behavior | Verified source semantics | Mobile status |
 | --- | --- | --- |
-| Incoming | Active, incomplete records requiring an action; the service projects the canonical queues and current action category. The page describes this as requiring action from the user’s office. | Definition shown; authorized data integration pending. |
-| Outgoing | Incomplete records acted on/forwarded by the office and not also currently in its Incoming queue. | Definition shown; authorized data integration pending. |
-| History | Completed routing records within the user’s authorized scope, ordered by completion/update time. | Definition shown; authorized data integration pending. |
-| Custody and timeline | `document_routing_events` records workflow/event, stages, from/to offices, timestamp, actor, remarks, and metadata; routing snapshots also exist. | Typed routing-event model added; API and detail UI pending. |
-| MOV review | `PambMovReviewEvent` is separate from routing events. A verdict such as `needs_correction` does not itself establish a new custody office; a return/transfer is represented as routing. | Separate typed review-event model and distinction note added; review history UI/API pending. |
+| Incoming | Active, incomplete records requiring an action; the service projects the canonical queues and current action category. The page describes this as requiring action from the user’s office. | Definition shown; fictional queue preview; authorized data integration pending. |
+| Outgoing | Incomplete records acted on/forwarded by the office and not also currently in its Incoming queue. | Definition shown; fictional queue preview; authorized data integration pending. |
+| History | Completed routing records within the user’s authorized scope, ordered by completion/update time. | Definition shown; fictional queue preview; authorized data integration pending. |
+| Custody and timeline | `document_routing_events` records workflow/event, stages, from/to offices, timestamp, actor, remarks, and metadata; routing snapshots also exist. | Typed routing-event model and fictional detail preview; API pending. |
+| MOV review | `PambMovReviewEvent` is separate from routing events. A verdict such as `needs_correction` does not itself establish a new custody office; a return/transfer is represented as routing. | Separate typed review-event model and fictional review history preview; API pending. |
 | Organizational authorization | Tracking checks the tracking permission and source ability, then global status, actor category, organizational unit, office and protected-area scope. Global users have a distinct queue projection. | Must be enforced and re-evaluated by the backend on every mobile request. Client-side role filtering is not an authorization boundary. |
-| Notifications | User-owned database notifications include read timestamps. Web routes list/recent, mark read/unread, mark all read, and clear; recent bell entries are limited to unread due-soon/overdue/workflow types. | Not integrated; read/unread API pending. |
-| Search, details, attachments | Web tracking is an authenticated Inertia page. Attachment routes require the web session and tracking permission; the protected preview resolves server-side paths. | Mobile search/details/previews pending protected API responses. |
+| Notifications | User-owned database notifications include read timestamps. Web routes list/recent, mark read/unread, mark all read, and clear; recent bell entries are limited to unread due-soon/overdue/workflow types. | Fictional, in-memory read/unread preview; API pending. |
+| Search, details, attachments | Web tracking is an authenticated Inertia page. Attachment routes require the web session and tracking permission; the protected preview resolves server-side paths. | Fictional search/filter/page/detail preview. Real attachment preview awaits a protected API response. |
 
 ### API compatibility
 
@@ -102,6 +103,11 @@ account switching.
   Incoming, Outgoing, and History definitions without invented records.
 - Added source-shaped routing and MOV-review event models and tests that keep
   custody office/event fields separate from review verdict/remarks.
+- Added an opt-in fictional demo using `CDS_DEMO_MODE=true`: overview counts,
+  four-section mobile navigation, queue search/source filtering/pagination,
+  detail/custody/routing/review views, an attachment placeholder, profile,
+  and in-memory notification read/unread controls. The demo is compile-time
+  selected; API failures can never silently switch to these fixtures.
 - Removed the prior technical-report client, fake `/api/mobile` request paths,
   and report-only screen/models. They targeted the older local `cds-system`
   snapshot and are not compatible with verified `origin/main`.
@@ -171,6 +177,17 @@ reachable LAN IP. `localhost` on a phone is the phone itself. Do not assume
 Windows hostnames resolve from Android. No firewall/network configuration,
 live-data connection, or server request was made.
 
+To inspect the fictional UI without a backend, run:
+
+```powershell
+flutter run --dart-define=CDS_DEMO_MODE=true
+```
+
+The `DEMO` banner and sample references identify fictional content. The
+normal `flutter run` starts the integration-pending shell. The demo has no
+login, persistent session, token, account cache, attachment bytes, or network
+fallback. Its sample profile is not an authenticated user.
+
 The active workspace remains `C:\laragon\www\bms-inventory`; no folder rename
 was attempted. After closing the workspace, run this from the parent directory
 only if the destination is still absent:
@@ -184,7 +201,12 @@ Rename-Item -LiteralPath '.\bms-inventory' -NewName 'cds-smart-mobile'
 
 - Read-only Git inspection verified the fetched `origin/main` workflow,
   routing, organizational access, notification, and web route source.
-- Routing-queue/event model tests were added but not executed because Flutter
+- On 2026-10-12, `git diff --check` passed and the mobile Git root, branch,
+  origin, and web worktree status were rechecked. `where.exe` found no Flutter,
+  Dart, Java, adb, emulator, or SDK manager executable, and no Android SDK
+  environment variable was set. Source review is the only validation of the
+  new demo UI; it is not a successful runtime or build check.
+- Routing-queue/event and demo filter tests were added but not executed because Flutter
   and Dart were unavailable. Formatting, analysis, Android build, device
   behavior, authorization-boundary tests against mobile APIs, and actual
   document/notification rendering remain unverified.
@@ -192,10 +214,13 @@ Rename-Item -LiteralPath '.\bms-inventory' -NewName 'cds-smart-mobile'
   above, not the verified mobile integration. No backend command, migration,
   production connection, push, or deployment was performed during this
   continuation.
-- Sign-in/session handling, authorized dashboard counts, search and filters,
-  queue data, detail and attachment previews, notifications, profile/logout,
-  loading/error/expired states, and mobile API tests remain unfinished pending
-  a separate development copy and a reviewed server API contract.
+- Real sign-in/session handling, authorized dashboard counts, queue data,
+  search/filter/page results, details, attachment previews, notifications,
+  profile/logout, loading/error/offline/expired states, and mobile API tests
+  remain unfinished pending a reviewed server API contract. The next concrete
+  step is to implement and test the scoped API in an authorized web development
+  copy, then replace the demo boundary with a typed client and secure per-account
+  session storage.
 - Continue only on `feature/cds-smart-mobile-refactor`; before staging,
   committing, or pushing, verify this Git root and
   `jayarcaldelero26-jpg/bms_inventory` origin, inspect the exact staged diff
