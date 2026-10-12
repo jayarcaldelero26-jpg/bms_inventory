@@ -108,6 +108,9 @@ account switching.
   detail/custody/routing/review views, an attachment placeholder, profile,
   and in-memory notification read/unread controls. The demo is compile-time
   selected; API failures can never silently switch to these fixtures.
+- Demo routing events display local, readable dates/times with a safe
+  unavailable label for missing or invalid timestamps. Zero-result searches
+  show the empty state without irrelevant pagination controls.
 - Removed the prior technical-report client, fake `/api/mobile` request paths,
   and report-only screen/models. They targeted the older local `cds-system`
   snapshot and are not compatible with verified `origin/main`.
@@ -237,8 +240,8 @@ flutter run -d <verified-device-id> --dart-define=CDS_DEMO_MODE=true
 
 The verified APK is
 `C:\laragon\www\bms-inventory\build\app\outputs\flutter-apk\app-debug.apk`
-(211,347,513 bytes; 201.6 MiB), SHA-256
-`15342FAD3082B2E3AE398D04A844270234ED9CD6DF425F1EF877FDE4603009F4`.
+(211,616,356 bytes; 201.8 MiB), SHA-256
+`CE2BBA311139B8C8C6DD4EEFB850C79CFCF7CF1DD4684EBC03FA4FC759A948DD`.
 `aapt dump badging` confirmed application ID `com.example.bms_inventory`,
 compile/target SDK 36, and display label `CDS-SMART Mobile`. The APK is ignored
 under `build\` and is not tracked by Git.
@@ -262,10 +265,12 @@ was attempted.
   legacy BMS files. None were in `lib/cds_smart`; the focused CDS analysis is
   clean. The prior toolchain blocker prevented a pre-change full-analysis
   baseline, so the earlier finding count is unknown.
-- Seven focused model and widget tests pass, including a 360×640 widget-test
-  viewport and an explicit empty-search result. The tests exercise tracking
-  navigation, pagination, search, current custody, separate routing/review
-  history, in-memory notification read state, and no widget-test overflow.
+- Eight focused model and widget tests pass, including a 360×640 widget-test
+  viewport and an explicit empty-search result. Timestamp tests cover local,
+  readable formatting plus missing/invalid fallback. The tests exercise
+  tracking navigation, pagination with results, hidden pagination on zero
+  results, search, current custody, separate routing/review history, in-memory
+  notification read state, and no widget-test overflow.
 - `flutter doctor -v` passes the Android toolchain check: Android SDK 36.0.0,
   Build Tools 36.0.0, JDK 17, and all SDK licenses accepted. Its only remaining
   issue is missing Visual Studio for Windows desktop development, unrelated to
@@ -285,6 +290,11 @@ was attempted.
   a fresh emulator, or providing a separate Android device that does not have
   an existing BMS installation to overwrite. Never uninstall, overwrite, or
   clear data from a BMS installation to test this APK.
+- For the follow-up UI fixes, focused `dart format`, `flutter analyze
+  lib/cds_smart test/cds_smart_models_test.dart
+  test/cds_smart_demo_widget_test.dart`, and both focused test files passed.
+  `flutter build apk --debug --dart-define=CDS_DEMO_MODE=true` succeeded again;
+  `aapt` confirmed the unchanged application ID and CDS-SMART Mobile label.
 - Existing Android namespace/application ID, signing, Firebase identity/config,
   and BMS storage were not changed. The existing
   `android/app/google-services.json` is present and untouched.

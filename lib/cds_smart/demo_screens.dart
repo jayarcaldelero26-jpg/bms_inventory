@@ -211,24 +211,25 @@ class _CdsDemoHomeState extends State<CdsDemoHome> {
                 ),
               ),
             ),
-        Row(
-          mainAxisAlignment: MainAxisAlignment.end,
-          children: [
-            IconButton(
-              tooltip: 'Previous page',
-              onPressed: safePage > 0 ? () => setState(() => page--) : null,
-              icon: const Icon(Icons.chevron_left),
-            ),
-            Text('${safePage + 1} / $pageCount'),
-            IconButton(
-              tooltip: 'Next page',
-              onPressed: safePage + 1 < pageCount
-                  ? () => setState(() => page++)
-                  : null,
-              icon: const Icon(Icons.chevron_right),
-            ),
-          ],
-        ),
+        if (results.isNotEmpty)
+          Row(
+            mainAxisAlignment: MainAxisAlignment.end,
+            children: [
+              IconButton(
+                tooltip: 'Previous page',
+                onPressed: safePage > 0 ? () => setState(() => page--) : null,
+                icon: const Icon(Icons.chevron_left),
+              ),
+              Text('${safePage + 1} / $pageCount'),
+              IconButton(
+                tooltip: 'Next page',
+                onPressed: safePage + 1 < pageCount
+                    ? () => setState(() => page++)
+                    : null,
+                icon: const Icon(Icons.chevron_right),
+              ),
+            ],
+          ),
       ],
     );
   }
@@ -304,7 +305,7 @@ class _DemoDetail extends StatelessWidget {
             child: ListTile(
               title: Text(event.eventKey),
               subtitle: Text(
-                '${event.fromOffice ?? 'Origin'} → ${event.toOffice ?? 'Destination'}\n${event.occurredAt?.toIso8601String() ?? 'Date unavailable'}',
+                '${event.fromOffice ?? 'Origin'} → ${event.toOffice ?? 'Destination'}\n${formatRoutingEventTimestamp(event.occurredAt)}',
               ),
               isThreeLine: true,
             ),

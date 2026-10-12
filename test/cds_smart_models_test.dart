@@ -1,6 +1,7 @@
 import 'package:cds_smart_mobile/cds_smart/routing_models.dart';
 import 'package:cds_smart_mobile/cds_smart/demo_data.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:intl/intl.dart';
 
 void main() {
   test('submission queues use the verified web definitions', () {
@@ -41,6 +42,49 @@ void main() {
       expect(routing.eventKey, 'received_by_penro');
       expect(review.eventKey, 'needs_correction');
       expect(review.remarks, 'Update the MOV.');
+    },
+  );
+
+  test(
+    'routing timestamps format locally and handle missing or invalid values',
+    () {
+      final event = DocumentRoutingEvent.fromJson({
+        'source_type': 'conservation',
+        'source_id': 43,
+        'workflow_key': 'pamb-meeting',
+        'event_key': 'received',
+        'occurred_at': '2026-10-10T00:00:00Z',
+      });
+      final invalidEvent = DocumentRoutingEvent.fromJson({
+        'source_type': 'conservation',
+        'source_id': 44,
+        'workflow_key': 'pamb-meeting',
+        'event_key': 'received',
+        'occurred_at': 'not-a-timestamp',
+      });
+      final missingEvent = DocumentRoutingEvent.fromJson({
+        'source_type': 'conservation',
+        'source_id': 45,
+        'workflow_key': 'pamb-meeting',
+        'event_key': 'received',
+      });
+
+      expect(
+        formatRoutingEventTimestamp(event.occurredAt),
+        DateFormat.yMMMd().add_jm().format(event.occurredAt!.toLocal()),
+      );
+      expect(
+        formatRoutingEventTimestamp(event.occurredAt),
+        isNot(contains('T00:00:00')),
+      );
+      expect(
+        formatRoutingEventTimestamp(invalidEvent.occurredAt),
+        'Date unavailable',
+      );
+      expect(
+        formatRoutingEventTimestamp(missingEvent.occurredAt),
+        'Date unavailable',
+      );
     },
   );
 

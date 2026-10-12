@@ -1,3 +1,5 @@
+import 'package:intl/intl.dart';
+
 class SubmissionQueue {
   const SubmissionQueue({
     required this.key,
@@ -32,6 +34,11 @@ class SubmissionQueue {
 
   static SubmissionQueue fromKey(String key) =>
       values.firstWhere((queue) => queue.key == key);
+}
+
+String formatRoutingEventTimestamp(DateTime? timestamp) {
+  if (timestamp == null) return 'Date unavailable';
+  return DateFormat.yMMMd().add_jm().format(timestamp.toLocal());
 }
 
 class DocumentRoutingEvent {
