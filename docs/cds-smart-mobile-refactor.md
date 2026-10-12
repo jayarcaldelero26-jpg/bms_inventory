@@ -166,44 +166,60 @@ and Android command-line tool distributions:
 - Flutter is configured to use
   `C:\Users\USER\AppData\Local\Android\Sdk`.
 - Android Studio was not needed for the CLI setup and was not installed.
-- Android platform/build tools, NDK, emulator, and API 36 system image are
-  still pending because the configured SDK reports its licenses unaccepted.
-  No emulator or Android device is currently available to Flutter.
+- All Android SDK package licenses were reviewed and accepted interactively.
+  SDK Manager confirmed `All SDK package licenses accepted`.
+- Installed for this project: Android platform 36, Build Tools 36.0.0,
+  Platform Tools 37.0.1, and NDK 28.2.13676358. Gradle also installed
+  Build Tools 35.0.0 and Android platforms 34 and 31 while resolving the
+  existing Android plugins.
+- Flutter's `flutter config --android-sdk` points at the SDK above.
+  `ANDROID_HOME`, `ANDROID_SDK_ROOT`, `JAVA_HOME`, and PATH were set for the
+  build and doctor commands; these are not assumed to persist in new shells.
+- The SDK has about 179 GB free after package installation. The Intel i5-12450H
+  reports firmware virtualization and VM monitor extensions disabled. No
+  emulator package/system image was downloaded and no physical Android device
+  is connected.
 
 Official setup references: [Flutter SDK archive](https://docs.flutter.dev/install/archive),
 [Flutter Android setup](https://docs.flutter.dev/platform-integration/android/setup),
 [Android command-line tools](https://developer.android.com/tools), and
 [Android Emulator setup](https://developer.android.com/studio/run/emulator).
 
-After Android SDK licenses are accepted in an interactive PowerShell, install
-the project-compatible platform and emulator packages:
+The license-acceptance step is complete. In a new PowerShell, configure the
+installed tool paths for Flutter commands:
 
 ```powershell
 $sdk = 'C:\Users\USER\AppData\Local\Android\Sdk'
-& "$sdk\cmdline-tools\latest\bin\sdkmanager.bat" --sdk_root="$sdk" --licenses
+$env:JAVA_HOME = 'C:\Users\USER\dev\jdk17'
+$env:ANDROID_HOME = $sdk
+$env:ANDROID_SDK_ROOT = $sdk
+$env:Path = "$env:JAVA_HOME\bin;C:\Users\USER\dev\flutter\bin;$sdk\platform-tools;$sdk\cmdline-tools\latest\bin;$env:Path"
+flutter doctor -v
 ```
 
-Accept each displayed agreement in that interactive terminal. Then install the
-packages:
+Packages installed for the Android build (no emulator/system image):
 
 ```powershell
 $sdk = 'C:\Users\USER\AppData\Local\Android\Sdk'
 & "$sdk\cmdline-tools\latest\bin\sdkmanager.bat" --sdk_root="$sdk" --install `
   'platform-tools' 'platforms;android-36' 'build-tools;36.0.0' `
-  'ndk;28.2.13676358' 'emulator' `
-  'system-images;android-36;google_apis;x86_64'
+  'ndk;28.2.13676358'
 ```
 
-Then open a new terminal so the user-level `PATH`, `JAVA_HOME`, `ANDROID_HOME`,
-and `ANDROID_SDK_ROOT` settings are loaded. Run:
+The Android emulator cannot currently run because firmware virtualization is
+disabled. After enabling Intel virtualization in firmware, check acceleration
+before installing an emulator or system image. Use a fresh emulator to avoid
+the existing BMS application ID and its device data:
 
 ```powershell
-flutter doctor -v
-flutter pub get
-dart format lib/cds_smart/demo_data.dart lib/cds_smart/demo_screens.dart test/cds_smart_models_test.dart test/cds_smart_demo_widget_test.dart
-flutter analyze lib/cds_smart test/cds_smart_models_test.dart test/cds_smart_demo_widget_test.dart
-flutter test test/cds_smart_models_test.dart test/cds_smart_demo_widget_test.dart
-flutter build apk --debug --dart-define=CDS_DEMO_MODE=true
+$sdk = 'C:\Users\USER\AppData\Local\Android\Sdk'
+& "$sdk\cmdline-tools\latest\bin\sdkmanager.bat" --sdk_root="$sdk" --install `
+  'emulator' 'system-images;android-36;google_apis;x86_64'
+& "$sdk\cmdline-tools\latest\bin\avdmanager.bat" create avd `
+  --name cds_demo_api36 --package 'system-images;android-36;google_apis;x86_64'
+& "$sdk\emulator\emulator.exe" -avd cds_demo_api36
+flutter devices
+flutter run -d <verified-device-id> --dart-define=CDS_DEMO_MODE=true
 ```
 
 The demo has no server connection. When APIs are implemented and authorized in
@@ -216,12 +232,16 @@ made.
 Exact opt-in demo command:
 
 ```powershell
-flutter run --dart-define=CDS_DEMO_MODE=true
+flutter run -d <verified-device-id> --dart-define=CDS_DEMO_MODE=true
 ```
 
-The debug APK destination, once the Android SDK packages are installed and the
-build succeeds, is `build\app\outputs\flutter-apk\app-debug.apk`. That APK has
-not been produced yet.
+The verified APK is
+`C:\laragon\www\bms-inventory\build\app\outputs\flutter-apk\app-debug.apk`
+(211,347,513 bytes; 201.6 MiB), SHA-256
+`15342FAD3082B2E3AE398D04A844270234ED9CD6DF425F1EF877FDE4603009F4`.
+`aapt dump badging` confirmed application ID `com.example.bms_inventory`,
+compile/target SDK 36, and display label `CDS-SMART Mobile`. The APK is ignored
+under `build\` and is not tracked by Git.
 
 The `DEMO` banner and sample references identify fictional content. The
 normal `flutter run` starts the integration-pending shell. The demo has no
@@ -237,20 +257,34 @@ was attempted.
   remaining changes across the edited CDS demo and tests.
 - Focused `flutter analyze lib/cds_smart test/cds_smart_models_test.dart
   test/cds_smart_demo_widget_test.dart` passed with no issues.
+- Focused formatter check passed for the CDS mobile source and tests.
 - The full `flutter analyze --no-pub` completed with 104 info-level findings in
   legacy BMS files. None were in `lib/cds_smart`; the focused CDS analysis is
   clean. The prior toolchain blocker prevented a pre-change full-analysis
   baseline, so the earlier finding count is unknown.
-- Six focused model and widget tests pass. The widget tests exercise tracking
+- Seven focused model and widget tests pass, including a 360×640 widget-test
+  viewport and an explicit empty-search result. The tests exercise tracking
   navigation, pagination, search, current custody, separate routing/review
-  history, and in-memory notification read state.
-- `flutter doctor -v` finds Flutter and Windows, but not an Android SDK
-  installation with platform packages. SDK Manager reports 8 of 8 licenses
-  unaccepted and has not created its `licenses` files. Therefore Android
-  platform/build tools, NDK, emulator, and system image were not installed.
-- No Android debug APK was compiled and no emulator/device behavior was
-  verified. Source/widget test success is not Android compilation or device
-  proof. Visual Studio is absent, as expected for this Android-only task.
+  history, in-memory notification read state, and no widget-test overflow.
+- `flutter doctor -v` passes the Android toolchain check: Android SDK 36.0.0,
+  Build Tools 36.0.0, JDK 17, and all SDK licenses accepted. Its only remaining
+  issue is missing Visual Studio for Windows desktop development, unrelated to
+  this Android build.
+- `flutter build apk --debug --dart-define=CDS_DEMO_MODE=true` succeeded twice;
+  the final build completed in 25.8 seconds. Gradle warned that existing
+  Gradle 8.14, AGP 8.11.1, and Kotlin 2.2.20 will need future compatibility
+  upgrades. No broad upgrade was made. Flutter's migration step added
+  `android.builtInKotlin=false` and `android.newDsl=false` to
+  `android/gradle.properties`; the application ID and signing configuration
+  remain unchanged.
+- **Android runtime was not verified.** `adb devices -l` showed no devices;
+  `flutter devices` listed only Windows, Chrome, and Edge. No emulator is
+  installed, and the CPU reports firmware virtualization disabled. No emulator
+  image was downloaded and no screenshot/runtime-exception observation is
+  claimed. Runtime verification requires enabling virtualization and starting
+  a fresh emulator, or providing a separate Android device that does not have
+  an existing BMS installation to overwrite. Never uninstall, overwrite, or
+  clear data from a BMS installation to test this APK.
 - Existing Android namespace/application ID, signing, Firebase identity/config,
   and BMS storage were not changed. The existing
   `android/app/google-services.json` is present and untouched.
@@ -267,10 +301,10 @@ was attempted.
   search/filter/page results, details, attachment previews, notifications,
   profile/logout, loading/error/offline/expired states, and mobile API tests
   remain unfinished pending a reviewed server API contract. The next concrete
-  step for this mobile task is to persist acceptance of the Android SDK licenses,
-  install the listed packages, build the APK, and run the opt-in demo on a fresh
-  emulator. Backend API implementation and live integration require separate
-  authorization and are outside this verification task.
+  step for this mobile task is to enable virtualization or provide a safe
+  dedicated device, then run the demo command above and inspect the listed UI
+  scenarios on-device. Backend API implementation and live integration require
+  separate authorization and are outside this verification task.
 - Continue only on `feature/cds-smart-mobile-refactor`; before staging,
   committing, or pushing, verify this Git root and
   `jayarcaldelero26-jpg/bms_inventory` origin, inspect the exact staged diff

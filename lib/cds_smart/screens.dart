@@ -145,7 +145,10 @@ class _QueuePendingCard extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text(queue.label, style: const TextStyle(fontWeight: FontWeight.w700)),
+          Text(
+            queue.label,
+            style: const TextStyle(fontWeight: FontWeight.w700),
+          ),
           const SizedBox(height: 8),
           Text(queue.description),
           const Spacer(),

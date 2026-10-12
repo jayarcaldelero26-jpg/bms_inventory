@@ -77,4 +77,23 @@ void main() {
     expect(find.text('Read'), findsOneWidget);
     expect(find.text('Unread'), findsOneWidget);
   });
+
+  testWidgets('small screen shows an explicit empty search state', (
+    tester,
+  ) async {
+    tester.view.physicalSize = const Size(360, 640);
+    tester.view.devicePixelRatio = 1;
+    addTearDown(tester.view.resetPhysicalSize);
+    await tester.pumpWidget(const MaterialApp(home: CdsDemoHome()));
+
+    await tester.tap(find.text('Tracking'));
+    await tester.pumpAndSettle();
+    await tester.enterText(find.byType(TextField), 'NO-SUCH-SAMPLE-REFERENCE');
+    await tester.pumpAndSettle();
+    await tester.drag(find.byType(ListView), const Offset(0, -1200));
+    await tester.pumpAndSettle();
+
+    expect(find.text('No matching sample documents.'), findsOneWidget);
+    expect(tester.takeException(), isNull);
+  });
 }
