@@ -3,7 +3,7 @@ import 'dart:io';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:hive/hive.dart';
 
-import 'package:bms_inventory/transect/legacy/transect_service.dart';
+import 'package:cds_smart_mobile/transect/legacy/transect_service.dart';
 
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();

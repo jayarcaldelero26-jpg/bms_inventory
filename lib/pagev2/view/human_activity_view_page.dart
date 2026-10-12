@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:bms_inventory/pagev2/human/human_activity_input_v2.dart';
+import 'package:cds_smart_mobile/pagev2/human/human_activity_input_v2.dart';
 
 class HumanActivityViewPage extends StatelessWidget {
   final String docId;

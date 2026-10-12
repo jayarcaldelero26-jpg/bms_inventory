@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:bms_inventory/widgets/glass_card_lite.dart';
+import 'package:cds_smart_mobile/widgets/glass_card_lite.dart';
 
 class HabitatDisturbanceSection extends StatefulWidget {
   final List<String> initialDisturbances;

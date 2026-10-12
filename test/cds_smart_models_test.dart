@@ -1,0 +1,42 @@
+import 'package:cds_smart_mobile/cds_smart/routing_models.dart';
+import 'package:flutter_test/flutter_test.dart';
+
+void main() {
+  test('submission queues use the verified web definitions', () {
+    expect(
+      SubmissionQueue.fromKey('incoming').description,
+      'Documents currently requiring action from your office.',
+    );
+    expect(
+      SubmissionQueue.fromKey('outgoing').description,
+      'Documents your office has acted on and forwarded to the next office.',
+    );
+    expect(
+      SubmissionQueue.fromKey('history').description,
+      'Completed routing records within your authorized scope.',
+    );
+  });
+
+  test('routing events carry custody offices independently of review events', () {
+    final routing = DocumentRoutingEvent.fromJson({
+      'source_type': 'conservation',
+      'source_id': 42,
+      'workflow_key': 'pamb-meeting',
+      'event_key': 'received_by_penro',
+      'from_office': 'CENRO Sample',
+      'to_office': 'PENRO Sample',
+      'occurred_at': '2026-10-10T09:30:00Z',
+      'recorded_by': 7,
+    });
+    final review = PambMovReviewEvent.fromJson({
+      'event_key': 'needs_correction',
+      'remarks': 'Update the MOV.',
+      'recorded_by': 8,
+    });
+
+    expect(routing.toOffice, 'PENRO Sample');
+    expect(routing.eventKey, 'received_by_penro');
+    expect(review.eventKey, 'needs_correction');
+    expect(review.remarks, 'Update the MOV.');
+  });
+}

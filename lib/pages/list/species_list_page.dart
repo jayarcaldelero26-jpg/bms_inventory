@@ -2,7 +2,7 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 
-import 'package:bms_inventory/pagev2/view/species_view_page.dart';
+import 'package:cds_smart_mobile/pagev2/view/species_view_page.dart';
 
 class SpeciesListPage extends StatefulWidget {
   static const Color kSpeciesGreen = Color(0xFF4CAF50);

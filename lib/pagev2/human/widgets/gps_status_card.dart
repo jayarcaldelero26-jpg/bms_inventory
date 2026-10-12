@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:geolocator/geolocator.dart';
-import 'package:bms_inventory/widgets/glass_card_lite.dart';
+import 'package:cds_smart_mobile/widgets/glass_card_lite.dart';
 
 class GpsStatusCard extends StatefulWidget {
   final void Function(double lat, double lng)? onLocationReady;

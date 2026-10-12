@@ -5,7 +5,7 @@ import 'package:flutter/services.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 
-import 'package:bms_inventory/widgets/species_search_modal.dart';
+import 'package:cds_smart_mobile/widgets/species_search_modal.dart';
 import '../../pagev2/species/widgets/species_save_button.dart';
 import '../../services/local_photo_service.dart';
 import '../../widgets/flat_card.dart';

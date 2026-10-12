@@ -1,5 +1,5 @@
-name: bms_inventory
-description: "A new Flutter project."
+name: cds_smart_mobile
+description: "CDS-SMART Mobile submission tracking shell."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
@@ -91,7 +91,7 @@ dev_dependencies:
 flutter_icons:
     android: true
     ios: true
-    image_path: "assets/app_icon.png"
+    image_path: "assets/images/cds_logo.png"
 
 flutter:
 
@@ -104,6 +104,7 @@ flutter:
   - assets/summary.png
   - assets/threat.png
   - assets/app_icon.png
+  - assets/images/cds_logo.png
   - assets/data/hamiguitan_species_master.json
   - assets/data/species_common.json
   - assets/images/bms_logo.png
@@ -114,8 +115,8 @@ flutter:
   uses-material-design: true
 
 flutter_native_splash:
-  color: "#1B5E20"
-  image: assets/images/bms_logo.png
+  color: "#176b43"
+  image: assets/images/cds_logo.png
   android: true
   ios: true
 
