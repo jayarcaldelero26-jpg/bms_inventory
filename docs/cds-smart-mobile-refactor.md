@@ -1,93 +1,82 @@
-# CDS-SMART Mobile API v1 integration
+# CDS-SMART Mobile API integration
 
-## Status and safety
+## Current contract
 
-The Flutter client implements the written CDS-SMART Mobile API v1 contract.
-The API contract and routes/controller were inspected read-only in
-`C:\Users\USER\development\cds-system-mobile-api`. Neither that checkout nor
-the running CDS-SMART server was changed or contacted. Do not use real accounts:
-the server's mobile token migration is still pending.
+The active Flutter flow uses the Laravel /api/mobile API. It does not use the legacy /api/v1 API client. The mobile API is read-only for Submission Tracking.
 
-Real mode is selected by default and requires `CDS_API_BASE_URL`. When unset,
-the app makes no network requests. The fictional demo is selected only with
-`CDS_DEMO_MODE=true`; it is an independent local screen with no network or
-secure token usage. API errors never lead to demo data.
+No staging API hostname is configured in this repository. Examples below use a placeholder; replace it only with an approved isolated test deployment. Do not point E2E tests at a production database or real user account.
 
-## Implemented API features
+## Authentication and session
 
-- Login, secure bearer-token persistence, startup profile validation, profile,
-  and token revocation/logout.
-- Authorized overview counts and Incoming, Outgoing, and History pagination.
-- All contract tracking filters: search, module, protected area ID, target
-  office, reporting period/year, and status.
-- Document details with custody state, routing history, and separate review
-  state/history.
-- User-scoped notifications, pagination, and read/unread updates.
-- Protected attachment metadata lookup followed by authenticated preview or
-  download URL retrieval; image preview is in-app and other file types can be
-  shared through the platform share sheet.
-- Explicit loading, empty, service/authorization error, and expired-session
-  states. Authenticated API data and protected file bytes are not cached.
-  In-memory account data and filter state are cleared at sign-out, account
-  switch, or expired session.
+- POST /api/mobile/login accepts email and password for an existing active web account.
+- Inactive accounts are denied. Approval and email-verification status are not eligibility checks for mobile login.
+- The response contains a top-level token and a minimal user object with id, name, and email.
+- Every token receives mobile:auth. The backend adds submission-tracking:read only when the existing organizational access policy allows it.
+- Tokens expire after 30 days. The server stores a hash; the Flutter app stores the bearer token in OS secure storage.
+- GET /api/mobile/me returns the minimal user object under user.
+- POST /api/mobile/logout revokes the current token. The app clears local token storage even if logout cannot reach the server.
+- Startup calls /me only when secure storage contains a nonempty token. A transient network/server failure preserves the token and offers Retry session restore; an authenticated 401 clears the expired or revoked token.
 
-No document, routing, or review mutation is exposed by the client. Actor
-category, office, module authorization, and data visibility remain server
-decisions. `needs_correction` is shown as review state; it does not imply a
-custody transfer.
+## Queue and detail routes
 
-## Configuration and testing
+Queues:
 
-Use only an isolated API deployment with the migration applied and a dedicated
-fictional test account:
+- GET /api/mobile/submission-tracking/incoming
+- GET /api/mobile/submission-tracking/outgoing
+- GET /api/mobile/submission-tracking/history
 
-```powershell
-flutter run --dart-define=CDS_API_BASE_URL=https://<isolated-test-host>
-```
+Supported query parameters:
 
-The configured value must be an HTTPS origin; `/api/v1` is added by the client.
-For local debug only, HTTP is accepted for `localhost`, `127.0.0.1`, and
-`10.0.2.2`. The secure token is not put in ordinary preferences, logs, URLs,
-or analytics. No refresh operation exists; a protected `401` deletes the token
-and requires sign-in. Logout clears local credentials even if revocation cannot
-reach the server.
+- search: string, maximum 120 characters
+- module: string, maximum 120 characters
+- protected_area_id: positive integer
+- target_office: string, maximum 160 characters
+- reporting_period: string, maximum 80 characters
+- reporting_year: integer from 1900 through 2200
+- status: string, maximum 80 characters
+- page: positive integer, default 1
+- per_page: integer from 1 through 100, default 25
 
-The API client tests use an injected mock HTTP transport and cover 401/revoked
-tokens, local logout cleanup, pagination/filters/empty out-of-range results,
-account switching, no authenticated response caching, and protected attachment
-metadata/content requests. Run focused checks with:
+Queue responses contain data, meta, and filters. The meta object contains queue, current_page, per_page, total, last_page, from, and to. List rows are limited to source, source_id, tracking_number, workflow_key, module, target_office, protected_area, protected_area_id, activity_name, document_type, reporting_year, date_conducted, date_accomplished, reporting_period, deadline_submission, submission_status, stage, routing_complete, and completed_at.
 
-```powershell
-dart format lib/cds_smart test/cds_smart_mobile_api_test.dart
-flutter analyze lib/cds_smart test/cds_smart_mobile_api_test.dart
-flutter test test/cds_smart_mobile_api_test.dart
-flutter build apk --debug --dart-define=CDS_API_BASE_URL=https://isolated.example.test
-```
+Authorized document detail:
 
-The HTTPS placeholder build does not make an API call. A real isolated
-end-to-end test still requires the reviewed/applied `mobile_api_tokens`
-migration in a non-production test deployment, a dedicated active/approved/
-verified test account with tracking access and test records/notifications/
-attachments, an HTTPS origin reachable from the test Android device, and
-explicit authorization to connect that device to that isolated deployment.
+- GET /api/mobile/submission-tracking/documents/{source}/{record}
 
-## API contract review notes
+The response contains data with the permitted list fields, routing_summary, and routing_timeline. Timeline entries expose only the approved event fields. The backend resolves source records through the existing SubmissionTrackingService and checks both organizational Tracking access and source-aware document access. Unauthorized or missing documents are not exposed.
 
-The inspected Laravel `routes/api.php` and `MobileApiController` match the
-documented v1 paths, bearer authentication, `201` login, JSON envelopes,
-pagination, queues, filters, profile, notifications, and authorization status
-behavior. Attachment metadata descriptors include `key`, `name`, and MIME
-details; their separate metadata route uses the protected attachment registry
-source (for example `bms-report`), not the tracking source (`bms`). The client
-maps tracking sources to registered attachment sources and calls that metadata
-route before requesting the returned URL.
+The Flutter app sends only the supported queue filters, displays loading/empty/error states, and never substitutes demo records after an API failure. Search and filtering are server requests; the API controls record visibility, queue membership, and ordering.
 
-No material client/contract mismatch was found in the inspected endpoints.
-This source check does not prove that a deployed host has the migration or
-serves this API version. Contract response examples remain fictional.
+## Security and transport
 
-## Preserved app identity and legacy data
+Set CDS_API_BASE_URL to an origin, not an API path. The Flutter client adds /api/mobile. Use HTTPS outside local debug testing.
 
-This change keeps the existing Android application ID, signing, Firebase
-configuration, BMS data stores, and legacy BMS source intact. The mobile
-tracking client does not read or write those legacy stores.
+Debug builds permit HTTP for localhost, 127.0.0.1, ::1, and Android Emulator alias 10.0.2.2. The Laravel local/testing exception is narrower: it also requires a loopback client address and permits only localhost, 127.0.0.1, ::1, or cds-system.test as the Host. For local phone testing, use a verified loopback/ADB reverse setup or HTTPS; the emulator alias accepted by Flutter is not by itself proof that the backend local exception will accept the request.
+
+Laravel rejects insecure public requests with HTTP 426. This application check is defense in depth. The actual hosting proxy/web-server must enforce HTTPS before bearer tokens can cross the public network, and TRUSTED_PROXIES must match the real staging proxy addresses.
+
+## Configuration and tests
+
+Use an HTTPS origin for an isolated test deployment:
+
+    flutter run --dart-define=CDS_API_BASE_URL=https://<isolated-test-host> --dart-define=CDS_DEMO_MODE=false
+
+The placeholder is not a real or known staging URL. No staging host was found in the repository configuration.
+
+Focused Flutter checks:
+
+    dart format lib/cds_smart test/cds_smart_mobile_api_origin_test.dart test/cds_smart_mobile_auth_test.dart test/cds_smart_mobile_tracking_test.dart
+    flutter analyze lib/cds_smart/auth_api.dart lib/cds_smart/auth_screens.dart lib/cds_smart/mobile_api_origin.dart lib/cds_smart/mobile_tracking_api.dart test/cds_smart_mobile_api_origin_test.dart test/cds_smart_mobile_auth_test.dart test/cds_smart_mobile_tracking_test.dart
+    flutter test test/cds_smart_mobile_api_origin_test.dart test/cds_smart_mobile_auth_test.dart test/cds_smart_mobile_tracking_test.dart
+
+Backend focused feature tests:
+
+    php artisan test tests/Feature/MobileSubmissionTrackingApiTest.php tests/Feature/MobileApiHttpsEnforcementTest.php tests/Feature/Auth/SharedLoginAttemptLimiterTest.php
+
+The backend PHPUnit configuration uses SQLite :memory: for feature tests. Do not run a standalone migration or point tests at a real CDS-SMART database.
+
+## Scope and deployment prerequisites
+
+The mobile API currently exposes authentication and read-only Submission Tracking only. It has no mobile notification routes, attachment delivery, overview endpoint, or routing mutation endpoints.
+
+Before isolated E2E testing, deploy the reviewed backend revision to an isolated test environment, apply the mobile_api_tokens migration through its approved deployment process, configure TLS and exact trusted proxy addresses, and create fictional user/record fixtures. The Android release build must use an owner-approved signing configuration before distribution. The deployment URL, target database, edge configuration, and signing secret are intentionally not specified in this repository.
