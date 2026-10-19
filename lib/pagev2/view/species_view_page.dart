@@ -2,7 +2,7 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:bms_inventory/pagev2/species/species_input_edit_page.dart';
+import 'package:cds_smart_mobile/pagev2/species/species_input_edit_page.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 
 class SpeciesViewPage extends StatelessWidget {

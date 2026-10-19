@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 
-import 'package:bms_inventory/pagev2/view/human_activity_view_page.dart';
+import 'package:cds_smart_mobile/pagev2/view/human_activity_view_page.dart';
 
 class HumanActivityListPage extends StatefulWidget {
   static const Color kHumanYellow = Color(0xFFFFC107);

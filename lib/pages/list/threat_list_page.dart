@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 
 import '../../widgets/record_card.dart';
-import 'package:bms_inventory/pagev2/view/threat_view_page.dart';
+import 'package:cds_smart_mobile/pagev2/view/threat_view_page.dart';
 
 class ThreatListPage extends StatefulWidget {
   const ThreatListPage({super.key});

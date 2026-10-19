@@ -3,12 +3,12 @@ import 'package:flutter/material.dart';
 import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 
-import 'package:bms_inventory/main_scaffold.dart';
-import 'package:bms_inventory/services/species_loader.dart';
-import 'package:bms_inventory/services/species_common_service.dart';
-import 'package:bms_inventory/services/threat_loader.dart';
-import 'package:bms_inventory/services/sync_pull_service.dart';
-import 'package:bms_inventory/transect/legacy/transect_service.dart';
+import 'package:cds_smart_mobile/main_scaffold.dart';
+import 'package:cds_smart_mobile/services/species_loader.dart';
+import 'package:cds_smart_mobile/services/species_common_service.dart';
+import 'package:cds_smart_mobile/services/threat_loader.dart';
+import 'package:cds_smart_mobile/services/sync_pull_service.dart';
+import 'package:cds_smart_mobile/transect/legacy/transect_service.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});

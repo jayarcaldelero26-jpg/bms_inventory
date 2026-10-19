@@ -1,16 +1,33 @@
-# bms_inventory
+# CDS-SMART Mobile
 
-A new Flutter project.
+Flutter client for the read-only CDS-SMART Mobile API v1 contract. Real mode
+requires a configured API origin and an approved, active, email-verified
+account. API records are never replaced with fictional data after a network or
+authorization error.
 
-## Getting Started
+Configure and run against an **isolated test deployment** only:
 
-This project is a starting point for a Flutter application.
+```powershell
+flutter run --dart-define=CDS_API_BASE_URL=https://<isolated-test-host>
+```
 
-A few resources to get you started if this is your first Flutter project:
+The API base value is an HTTPS origin; the client adds `/api/v1`. Local
+debug-only HTTP is accepted for `localhost`, `127.0.0.1`, or Android Emulator's
+`10.0.2.2`. Without a URL, the app makes no requests and shows a configuration
+message.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+The fictional demo is independent and explicitly opt-in:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```powershell
+flutter run --dart-define=CDS_DEMO_MODE=true
+```
+
+Demo mode performs no API requests, does not sign in, and does not write demo
+state to device storage. If both defines are set, the demo remains isolated
+from the API.
+
+The client stores only the opaque bearer token in OS secure storage, clears it
+on logout or protected-endpoint `401`, and does not cache authenticated
+responses or protected file bytes. See
+[the integration guide](docs/cds-smart-mobile-refactor.md) for implemented
+features, contract notes, and isolated end-to-end prerequisites.
