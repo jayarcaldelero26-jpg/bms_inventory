@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 
 import 'demo_data.dart';
 import 'routing_models.dart';
-import 'screens.dart';
+import 'auth_screens.dart';
+import 'ui_components.dart';
 
 /// An opt-in, fictional preview. It never sends requests or writes device data.
 class CdsDemoHome extends StatefulWidget {

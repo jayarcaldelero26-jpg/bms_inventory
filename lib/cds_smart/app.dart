@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'screens.dart';
+import 'ui_components.dart';
+import 'auth_screens.dart';
 import 'demo_screens.dart';
 
 class CdsSmartApp extends StatelessWidget {
