@@ -1,9 +1,11 @@
 import 'dart:convert';
 
-import 'package:flutter/foundation.dart';
+import 'package:flutter/foundation.dart' show kReleaseMode;
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 import 'package:http/http.dart' as http;
 import 'package:intl/intl.dart';
+
+import 'mobile_api_origin.dart';
 
 abstract interface class TokenStore {
   Future<String?> read();
@@ -58,29 +60,9 @@ class MobileApiClient {
     required Uri baseUrl,
     required TokenStore tokenStore,
     http.Client? transport,
-  }) : _baseUrl = _validateBaseUrl(baseUrl),
+  }) : _baseUrl = validateMobileApiOrigin(baseUrl, releaseBuild: kReleaseMode),
        _tokenStore = tokenStore,
        _transport = transport ?? http.Client();
-
-  static Uri _validateBaseUrl(Uri url) {
-    final isLocalDebugHost =
-        kDebugMode &&
-        const {'localhost', '127.0.0.1', '10.0.2.2'}.contains(url.host);
-    if (!url.hasAuthority ||
-        url.userInfo.isNotEmpty ||
-        (url.scheme != 'https' &&
-            !(url.scheme == 'http' && isLocalDebugHost)) ||
-        (url.path.isNotEmpty && url.path != '/') ||
-        url.query.isNotEmpty ||
-        url.fragment.isNotEmpty) {
-      throw ArgumentError.value(
-        url,
-        'baseUrl',
-        'Configure an HTTPS origin (HTTP is allowed only for local debug hosts).',
-      );
-    }
-    return url.replace(path: '');
-  }
 
   final Uri _baseUrl;
   final TokenStore _tokenStore;
@@ -106,7 +88,7 @@ class MobileApiClient {
       _attachmentSources[trackingSource];
 
   Uri _endpoint(String path, [Map<String, String>? query]) => _baseUrl.replace(
-    path: '/api/v1/$path',
+    path: '/api/mobile/$path',
     queryParameters: query == null || query.isEmpty ? null : query,
   );
 
@@ -117,8 +99,8 @@ class MobileApiClient {
       return;
     }
     try {
-      final profile = await _getData('profile');
-      _accountId = (profile['id'] as num?)?.toInt();
+      final currentUser = await profile();
+      _accountId = (currentUser['id'] as num?)?.toInt();
     } on SessionExpiredException {
       rethrow;
     }
@@ -127,18 +109,17 @@ class MobileApiClient {
   Future<Map<String, dynamic>> login({
     required String email,
     required String password,
-    String deviceName = 'CDS-SMART Mobile',
   }) async {
     await clearSession();
     final response = await _send(
       'POST',
-      'auth/login',
-      body: {'email': email, 'password': password, 'device_name': deviceName},
+      'login',
+      body: {'email': email, 'password': password},
       authenticated: false,
-      acceptedStatusCodes: const {201},
+      acceptedStatusCodes: const {200, 201},
     );
-    final data = _decodeData(response);
-    final token = data['access_token'];
+    final data = _decodeRoot(response);
+    final token = data['token'];
     final user = data['user'];
     if (token is! String || token.isEmpty || user is! Map<String, dynamic>) {
       throw const MobileApiException(
@@ -150,7 +131,14 @@ class MobileApiClient {
     return user;
   }
 
-  Future<Map<String, dynamic>> profile() => _getData('profile');
+  Future<Map<String, dynamic>> profile() async {
+    final root = _decodeRoot(await _send('GET', 'me'));
+    final user = root['user'];
+    if (user is! Map<String, dynamic>) {
+      throw const MobileApiException('The server returned an invalid response.');
+    }
+    return user;
+  }
 
   Future<Map<String, dynamic>> dashboard({
     Map<String, String> filters = const {},
@@ -172,14 +160,14 @@ class MobileApiClient {
   }) async {
     final data = await _getRoot(
       'GET',
-      'submissions/$queue',
+      'submission-tracking/$queue',
       query: {...filters, 'page': '$page', 'per_page': '$perPage'},
     );
     return PaginatedData<Map<String, dynamic>>.fromJson(data);
   }
 
   Future<Map<String, dynamic>> document(String source, int recordId) =>
-      _getData('documents/$source/$recordId');
+      _getData('submission-tracking/documents/$source/$recordId');
 
   Future<PaginatedData<Map<String, dynamic>>> notifications({
     int page = 1,
@@ -224,7 +212,7 @@ class MobileApiClient {
   Future<void> logout() async {
     Exception? requestError;
     try {
-      await _send('DELETE', 'auth/token');
+      await _send('POST', 'logout');
     } on Exception catch (error) {
       requestError = error;
     } finally {
@@ -403,7 +391,7 @@ class PaginatedData<T> {
 
   factory PaginatedData.fromJson(Map<String, dynamic> json) {
     final data = json['data'];
-    final pagination = json['pagination'];
+    final pagination = json['meta'];
     if (data is! List ||
         data.any((item) => item is! Map<String, dynamic>) ||
         pagination is! Map<String, dynamic>) {
